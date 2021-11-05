@@ -1,0 +1,5 @@
+# Copyright 2021 Acryl Project
+# Proprietary
+
+-keep class com.google.** { *; }
+-keep class vendor.** { *; }

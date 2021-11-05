@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Acryl Project
+    Proprietary
+-->
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res/com.android.settings" xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/accessibility_vibration_settings_title">
+    <com.android.settings.widget.SettingsMainSwitchPreference android:key="vibration_haptics_switch" app:controller="com.google.android.settings.accessibility.HapticsSwitchPreferenceController"/>
+    <PreferenceCategory android:title="@string/vibrate_for_calls_category_title" android:key="vibrate_for_calls_category" app:controller="com.google.android.settings.sound.VibrateForCallsCategoryPreferenceController">
+        <Preference android:title="@string/vibrate_when_ringing_title" android:key="vibrate_for_calls" android:fragment="com.google.android.settings.sound.VibrateForCallsPreferenceFragment" app:controller="com.google.android.settings.sound.VibrateForCallsPreferenceController"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/vibration_haptics_strength_category_title" android:key="vibration_haptics_strength_category" app:controller="com.google.android.settings.accessibility.HapticsStrengthCategoryPreferenceController">
+        <com.android.settings.widget.SeekBarPreference android:title="@string/accessibility_ring_vibration_title" android:key="ring_vibration_slider_preference" app:controller="com.google.android.settings.accessibility.RingVibrationIntensitySliderPreferenceController" app:keywords="@string/keywords_ring_vibration"/>
+        <com.android.settings.widget.SeekBarPreference android:title="@string/accessibility_notification_vibration_title" android:key="notification_vibration_slider_preference" app:controller="com.google.android.settings.accessibility.NotificationVibrationIntensitySliderPreferenceController" app:keywords="@string/keywords_notification_vibration"/>
+        <com.android.settings.widget.SeekBarPreference android:title="@string/accessibility_touch_vibration_title" android:key="touch_vibration_slider_preference" app:controller="com.google.android.settings.accessibility.HapticFeedbackIntensitySliderPreferenceController" app:keywords="@string/keywords_touch_vibration"/>
+    </PreferenceCategory>
+    <com.android.settingslib.widget.FooterPreference android:title="@string/vibration_haptics_settings_not_available_summary" android:selectable="false" android:key="haptics_disabled_explanation" app:controller="com.google.android.settings.accessibility.HapticsErrorInfoPreferenceController" app:searchable="false"/>
+</PreferenceScreen>

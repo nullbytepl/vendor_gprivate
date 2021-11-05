@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Acryl Project
+    Proprietary
+-->
+<manifest xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.settings">
+    <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="normal|signature|system"/>
+    <permission android:name="com.google.android.settings.future.logging.RESTRICTED_SEND_FUTURE_LOGS" android:protectionLevel="normal|signature|system"/>
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
+    <uses-permission android:name="com.google.android.settings.intelligence.BATTERY_DATA"/>
+    <application>
+        <activity android:theme="@android:style/Theme.Material" android:name="com.google.android.settings.gestures.assist.bubble.AssistGestureBubbleActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait" android:hardwareAccelerated="true" android:resizeableActivity="false"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/assist_gesture_training_intro_title" android:icon="@drawable/ic_assist_gesture_suggestion" android:name="com.google.android.settings.gestures.assist.AssistGestureTrainingIntroActivity" android:enabled="true" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.google.android.settings.ASSIST_GESTURE_TRAINING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.ASSIST_GESTURE"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/assist_gesture_training_intro_title"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/assist_gesture_training_intro_text"/>
+            <meta-data android:name="com.android.settings.icon_tintable" android:value="true"/>
+        </activity>
+        <activity-alias android:label="@string/assist_gesture_training_intro_title" android:icon="@drawable/ic_assist_gesture" android:name="com.google.android.settings.gestures.AssistGestureSuggestion" android:enabled="true" android:exported="true" android:targetActivity="com.google.android.settings.gestures.assist.AssistGestureTrainingIntroActivity">
+            <intent-filter android:priority="30">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.FIRST_IMPRESSION"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.dismiss" android:value="14"/>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/assist_gesture_training_suggestion_title"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/assist_gesture_training_suggestion_summary"/>
+        </activity-alias>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/assist_gesture_training_enrolling_title" android:name="com.google.android.settings.gestures.assist.AssistGestureTrainingEnrollingActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/assist_gesture_training_finished_title" android:name="com.google.android.settings.gestures.assist.AssistGestureTrainingFinishedActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_intro_title" android:icon="@drawable/ic_assist_gesture_suggestion" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingIntroActivity" android:enabled="true" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.google.android.settings.COLUMBUS_GESTURE_TRAINING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.COLUMBUS_GESTURE"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/columbus_gesture_training_intro_title"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/columbus_gesture_training_intro_text_suw"/>
+            <meta-data android:name="com.android.settings.icon_tintable" android:value="true"/>
+        </activity>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_enrolling_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingEnrollingActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_action_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingActionActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_launch_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingLaunchActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:label="@string/columbus_gesture_training_finished_title" android:name="com.google.android.settings.gestures.columbus.ColumbusGestureTrainingFinishedActivity" android:enabled="true" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:name="com.google.android.settings.biometrics.face.FaceEnrollTrampoline" android:exported="true" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:name="com.google.android.settings.biometrics.face.FaceEnrollEnrolling" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:name="com.google.android.settings.biometrics.face.FaceEnrollParticipation" android:exported="false" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/SudThemeGlif.Light" android:name="com.google.android.settings.biometrics.face.FaceEnrollConfirmation" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoDisplay" android:label="@string/aware_settings_title" android:icon="@drawable/ic_suggestion_aware" android:name="com.google.android.settings.aware.AwareSettingsActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.AWARE_SETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.FIRST_IMPRESSION"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.dismiss" android:value="0"/>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/aware_settings_suggestion_title"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/aware_settings_suggestion_summary"/>
+        </activity>
+        <activity android:label="@string/aware_settings_title" android:icon="@drawable/ic_suggestion_wake_screen" android:name="com.google.android.settings.aware.WakeScreenSuggestionActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.android.settings.suggested.category.FIRST_IMPRESSION"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.dismiss" android:value="0"/>
+            <meta-data android:name="com.android.settings.title" android:resource="@string/wake_screen_suggestion_title"/>
+            <meta-data android:name="com.android.settings.summary" android:resource="@string/wake_screen_suggestion_summary"/>
+        </activity>
+        <activity android:name="com.google.android.settings.aware.AwareAssistSettingsActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.future.AWARE_ASSIST_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoDisplay" android:name="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingTrampoline" android:permission="android.permission.BATTERY_STATS" android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.REVERSE_CHARGING_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/BottomSheetStyle" android:name="com.google.android.settings.fuelgauge.reversecharging.BottomSheetActivity" android:permission="android.permission.BATTERY_STATS" android:exported="true" android:finishOnTaskLaunch="true" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:configChanges="orientation" android:documentLaunchMode="never" android:relinquishTaskIdentity="true" android:resizeableActivity="false" android:supportsPictureInPicture="false">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.REVERSE_CHARGING_BOTTOM_SHEET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoDisplay" android:name="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingToolTrampoline" android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.google.android.settings.fuelgauge.REVERSE_CHARGING_TOOL_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/security_advanced_settings" android:name="com.google.android.settings.security.SecurityAdvancedSettingsActivity" android:exported="true" android:taskAffinity="com.android.settings.root">
+            <intent-filter android:priority="1">
+                <action android:name="com.google.android.settings.security.SECURITY_ADVANCED_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.security.SecurityAdvancedSettings"/>
+        </activity>
+        <activity android:name="com.google.android.settings.games.GameSettingsActivity" android:exported="true" android:screenOrientation="behind" android:showForAllUsers="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.google.android.settings.games.GAME_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.VOICE_LAUNCH"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS" android:value="com.google.android.settings.games.GameSettings"/>
+        </activity>
+        <provider android:name="com.google.android.settings.external.ExternalSettingsProvider" android:exported="true" android:multiprocess="false" android:authorities="com.google.android.settings.external" android:grantUriPermissions="true"/>
+        <receiver android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver" android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver.RINGER_MODE_SILENCE_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.google.android.settings.fuelgauge.BatteryBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="settings.intelligence.battery.action.FETCH_BATTERY_USAGE_DATA"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.settings.fuelgauge.BatteryUsageLoaderService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":usage_data_loader"/>
+        <receiver android:name="com.google.android.wifitrackerlib.WsuPostProvisioningReceiver" android:permission="android.permission.NETWORK_CARRIER_PROVISIONING" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.wsu.action.WSU_POST_PROVISIONING"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/HatsLibPromptTheme" android:name="com.google.android.libraries.hats20.SurveyPromptActivity" android:exported="false" android:excludeFromRecents="true" android:windowSoftInputMode="adjustPan"/>
+    </application>
+</manifest>

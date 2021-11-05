@@ -1,0 +1,45 @@
+// Copyright 2021 Acryl Project
+// Proprietary
+
+android_library {
+    name: "settingsa-core",
+    platform_apis: true,
+
+    srcs: ["src/**/*.java"],
+    static_libs: [
+        "libsettingsgoogle",
+        "Settings-core",
+        "WifiTrackerLib",
+    ],
+    resource_dirs: [
+        "res",
+        "lib/res",
+    ],
+    manifest: ":Settings_manifest",
+}
+
+android_app {
+    name: "settingsa",
+    defaults: ["platform_app_defaults"],
+    platform_apis: true,
+    certificate: "platform",
+    system_ext_specific: true,
+    privileged: true,
+    required: [
+        "privapp_whitelist_com.android.settings",
+        "settings-platform-compat-config",
+    ],
+    static_libs: ["settingsa-core"],
+    uses_libs: ["org.apache.http.legacy"],
+    optimize: {
+        proguard_flags_files: [
+            ":Settings_proguard_flags",
+            "proguard.flags",
+        ],
+    },
+    overrides: [
+        "Settings",
+    ],
+    manifest: ":Settings_manifest",
+    additional_manifests: ["AndroidManifest.xml"],
+}
