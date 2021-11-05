@@ -1,0 +1,8 @@
+# Copyright 2021 Acryl Project
+# Proprietary
+
+# Include the original flags
+-include ../../../frameworks/base/packages/SystemUI/proguard.flags
+
+-keep class com.google.** { *; }
+-keep class vendor.** { *; }

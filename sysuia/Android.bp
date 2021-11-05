@@ -1,0 +1,63 @@
+// Copyright 2021 Acryl Project
+// Proprietary
+
+android_library {
+    name: "sysuia-core",
+    srcs: [
+        "src/**/*.kt",
+        "src/**/*.java",
+        "src/**/I*.aidl",
+    ],
+    resource_dirs: [
+        "res",
+        "lib/res",
+    ],
+    asset_dirs: ["lib/assets"],
+    aaptflags: [
+        "-0 .tflite",
+        "-0 .vocab",
+    ],
+    static_libs: [
+        "libsysuig",
+        "SystemUI-core",
+        "guava",
+        "tensorflowlite_java",
+    ],
+    manifest: "AndroidManifest.xml",
+
+    kotlincflags: ["-Xjvm-default=enable"],
+
+    plugins: ["dagger2-compiler"],
+}
+
+android_app {
+    name: "sysuia",
+    defaults: ["platform_app_defaults"],
+    static_libs: [
+        "sysuia-core",
+    ],
+    jni_libs: [
+        "libtensorflowlite_jni",
+    ],
+    use_embedded_native_libs: true,
+    resource_dirs: [],
+
+    platform_apis: true,
+    system_ext_specific: true,
+    certificate: "platform",
+    privileged: true,
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
+
+    kotlincflags: ["-Xjvm-default=enable"],
+
+    dxflags: ["--multi-dex"],
+    required: [
+        "privapp_whitelist_com.android.systemui",
+    ],
+    overrides: [
+        "SystemUI",
+    ],
+}

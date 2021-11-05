@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Acryl Project
+    Proprietary
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        package="com.android.systemui"
+        android:sharedUserId="android.uid.systemui"
+        xmlns:tools="http://schemas.android.com/tools"
+        coreApp="true">
+
+    <original-package android:name="com.android.systemui"/>
+    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
+    <uses-permission android:name="android.permission.MANAGE_GAME_MODE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.ACCESS_CONTEXT_HUB"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <permission android:name="com.android.systemui.permission.SEND_ALERT_BROADCASTS" android:protectionLevel="preinstalled|signature"/>
+    <uses-permission android:name="com.google.android.deskclock.permission.RECEIVE_ALERT_BROADCASTS"/>
+    <permission android:name="com.google.sensor.elmyra.permission.USE_RAW_SENSOR" android:protectionLevel="preinstalled|signature"/>
+    <uses-permission android:name="com.google.sensor.elmyra.permission.USE_RAW_SENSOR"/>
+    <permission android:name="com.google.android.elmyra.permission.CONFIGURE_ASSIST_GESTURE" android:protectionLevel="preinstalled|signature"/>
+    <uses-permission android:name="com.google.android.elmyra.permission.CONFIGURE_ASSIST_GESTURE"/>
+    <permission android:name="com.google.android.columbus.permission.CONFIGURE_COLUMBUS_GESTURE" android:protectionLevel="preinstalled|signature"/>
+    <uses-permission android:name="com.google.android.columbus.permission.CONFIGURE_COLUMBUS_GESTURE"/>
+    <uses-permission android:name="com.google.restricted_assist_gesture.permission.RESTRICTED_ASSIST_GESTURE_PROVIDER"/>
+    <permission android:name="com.google.android.ambientindication.permission.AMBIENT_INDICATION" android:protectionLevel="privileged|signature"/>
+    <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.QSB"/>
+    <permission android:name="com.google.android.systemui.permission.WIRELESS_CHARGER_STATUS" android:protectionLevel="privileged|signature"/>
+    <protected-broadcast android:name="com.google.android.apps.dreamliner.SETTINGS"/>
+    <uses-permission android:name="com.google.android.apps.dreamliner.permission.DREAMLINER_SERVICE"/>
+    <uses-permission android:name="android.permission.REGISTER_STATS_PULL_ATOM"/>
+    <protected-broadcast android:name="com.google.android.systemui.smartspace.ENABLE_UPDATE"/>
+    <protected-broadcast android:name="com.google.android.systemui.smartspace.EXPIRE_EVENT"/>
+    <protected-broadcast android:name="com.google.android.systemui.smartspace.CLICK_EVENT"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.ALIGNMENT_CHANGE"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.TOUCH_EVENT"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.FLING_EVENT"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.ASSISTANT_POODLE"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.ACTION_UPDATE_FAN_LEVEL"/>
+    <protected-broadcast android:name="com.google.android.systemui.dreamliner.PHOTO_EVENT"/>
+    <protected-broadcast android:name="com.breel.wallpapers.NOTIFICATION_RECEIVED"/>
+    <permission android:name="com.breel.wallpapers.notifications"/>
+    <uses-permission android:name="com.breel.wallpapers.notifications"/>
+    <uses-permission android:name="com.google.android.ambientindication.permission.AMBIENT_INDICATION"/>
+
+    <application>
+        <provider android:name=".keyguard.KeyguardSliceProvider"
+            tools:node="remove" />
+
+        <service android:exported="true" android:name="com.google.android.systemui.elmyra.ElmyraServiceProxy" android:permission="com.google.android.elmyra.permission.CONFIGURE_ASSIST_GESTURE"/>
+        <service android:exported="true" android:name="com.google.android.systemui.columbus.ColumbusServiceProxy" android:permission="com.google.android.columbus.permission.CONFIGURE_COLUMBUS_GESTURE"/>
+        <service android:exported="true" android:name="com.google.android.systemui.statusbar.NotificationVoiceReplyManagerService"/>
+        <provider android:authorities="com.android.systemui.keyguard" android:enabled="false" android:exported="true" android:name="com.google.android.systemui.keyguard.KeyguardSliceProviderGoogle"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTask" android:name="com.google.android.systemui.gamedashboard.GameMenuActivity" android:screenOrientation="behind" android:showForAllUsers="true" android:theme="@style/GameMenuTheme"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:finishOnCloseSystemDialogs="true" android:launchMode="singleTask" android:name="com.google.android.systemui.gamedashboard.GameDndConfigActivity" android:screenOrientation="behind" android:showForAllUsers="true" android:theme="@style/GameMenuTheme"/>
+
+    </application>
+</manifest>

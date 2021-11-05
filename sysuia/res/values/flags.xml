@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Acryl Project
+    Proprietary
+-->
+<resources>
+    <bool name="flag_monet">true</bool>
+    <bool name="flag_smartspace">true</bool>
+    <bool name="flag_smartspace_shared_element_transition">true</bool>
+</resources>
