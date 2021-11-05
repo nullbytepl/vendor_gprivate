@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/assist_gesture_sensitivity_seekbar" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="@integer/gesture_assist_sensitivity_max" android:progress="@integer/gesture_assist_sensitivity_default" android:layout_centerHorizontal="true" style="@android:style/Widget.Material.SeekBar.Discrete" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip">
+        <TextView android:layout_gravity="start|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assist_gesture_enrollment_seekbar_light" android:layout_marginStart="16.0dip" />
+        <TextView android:layout_gravity="end|center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/assist_gesture_enrollment_seekbar_strong" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</merge>

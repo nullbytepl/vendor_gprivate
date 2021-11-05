@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/columbus_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.IllustrationPreference android:key="columbus_video" settings:lottie_rawRes="@raw/gesture_columbus" />
+    <com.android.settingslib.widget.MainSwitchPreference android:title="@string/columbus_setting_enable_switch_title" android:key="columbus_enabled_switch" settings:controller="com.google.android.settings.gestures.columbus.ColumbusEnabledPreferenceController" />
+    <PreferenceCategory android:title="@string/columbus_setting_actions_title" android:key="columbus_action_category" settings:controller="com.google.android.settings.gestures.columbus.ColumbusActionsPreferenceController" />
+    <PreferenceCategory android:title="@string/columbus_setting_additional_settings_title" android:key="columbus_sensitivity_category">
+        <SwitchPreference android:title="@string/columbus_setting_sensitivity_title" android:key="columbus_low_sensitivity" settings:controller="com.google.android.settings.gestures.columbus.ColumbusLowSensitivityPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

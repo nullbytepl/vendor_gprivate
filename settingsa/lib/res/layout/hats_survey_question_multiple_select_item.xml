@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/hats_white_button" android:paddingLeft="@dimen/hats_lib_survey_horizontal_padding" android:paddingRight="@dimen/hats_lib_survey_horizontal_right_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/hats_lib_survey_answer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatCheckBox android:textSize="@dimen/hats_lib_survey_answer_font_size" android:textColor="@color/hats_lib_survey_text_color" android:layout_gravity="center_vertical" android:id="@id/hats_lib_multiple_select_checkbox" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawableLeft="@android:color/transparent" android:drawablePadding="16.0dip" app:buttonTint="@color/hats_lib_checkbox_tint" />
+</FrameLayout>

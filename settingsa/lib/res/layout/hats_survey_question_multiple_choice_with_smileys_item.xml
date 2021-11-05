@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/hats_white_button" android:paddingLeft="@dimen/hats_lib_survey_horizontal_padding" android:paddingTop="@dimen/hats_lib_multiple_choice_item_padding" android:paddingRight="@dimen/hats_lib_survey_horizontal_right_padding" android:paddingBottom="@dimen/hats_lib_multiple_choice_item_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/hats_lib_survey_answer_height" android:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/hats_lib_survey_multiple_choice_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="16.0dip" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/hats_lib_survey_answer_font_size" android:textStyle="normal" android:textColor="@color/hats_lib_survey_text_color" android:layout_gravity="center_vertical" android:id="@id/hats_lib_survey_multiple_choice_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" />
+</LinearLayout>

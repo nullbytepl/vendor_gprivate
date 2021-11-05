@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/security_advanced_settings" android:key="security_advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:key="dashboard_title_placeholder" android:order="1" />
+    <PreferenceCategory android:key="security_category" android:order="10" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="security_settings_device_admin_category" android:order="40">
+        <Preference android:title="@string/manage_device_admin" android:key="securityhub_manage_device_admin" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings" settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController" />
+        <Preference android:title="@string/enterprise_privacy_settings" android:key="securityhub_enterprise_privacy" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" />
+        <Preference android:title="@string/financed_privacy_settings" android:key="securityhub_financed_privacy" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.enterprise.EnterprisePrivacySettings" />
+    </PreferenceCategory>
+    <Preference android:title="@string/sim_lock_settings_category" android:key="securityhub_sim_lock_settings" android:order="50">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/encryption_and_credential_settings_title" android:key="securityhub_encryption_and_credential" android:summary="@string/encryption_and_credential_settings_summary" android:order="60" android:fragment="com.android.settings.security.EncryptionAndCredential" />
+    <Preference android:title="@string/manage_trust_agents" android:key="securityhub_manage_trust_agents" android:summary="@string/summary_placeholder" android:order="70" android:fragment="com.android.settings.security.trustagent.TrustAgentSettings" />
+    <Preference android:title="@string/screen_pinning_title" android:key="securityhub_screen_pinning_settings" android:summary="@string/summary_placeholder" android:order="80" android:fragment="com.android.settings.security.ScreenPinningSettings" settings:keywords="@string/keywords_app_pinning" />
+    <SwitchPreference android:title="@string/confirm_sim_deletion_title" android:key="securityhub_confirm_sim_deletion" android:summary="@string/confirm_sim_deletion_description" android:order="90" settings:controller="com.android.settings.security.ConfirmSimDeletionPreferenceController" />
+    <PreferenceCategory android:title="@string/lock_settings_profile_title" android:key="security_category_profile" android:order="100">
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/lock_settings_profile_unification_title" android:key="securityhub_unification" android:summary="@string/lock_settings_profile_unification_summary" settings:keywords="@string/keywords_unification" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/unlock_set_unlock_launch_picker_title_profile" android:key="securityhub_unlock_set_or_change_profile" android:summary="@string/unlock_set_unlock_mode_pattern" settings:keywords="@string/keywords_lockscreen" />
+        <SwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="securityhub_visiblepattern_profile" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_fingerprint_preference_title" android:key="securityhub_fingerprint_settings_profile" android:summary="@string/summary_placeholder" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_face_preference_title" android:key="securityhub_face_settings_profile" android:summary="@string/summary_placeholder" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_biometric_preference_title" android:key="securityhub_biometric_settings_profile" android:summary="@string/summary_placeholder" />
+    </PreferenceCategory>
+</PreferenceScreen>

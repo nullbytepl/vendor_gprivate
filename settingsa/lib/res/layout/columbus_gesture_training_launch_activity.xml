@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_settings_gestures" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/columbus_gesture_training_launch_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioGroup android:orientation="vertical" android:id="@id/apps" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame" />
+</com.google.android.setupdesign.GlifLayout>

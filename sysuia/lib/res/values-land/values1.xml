@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <dimen name="game_menu_contents_width">604.0dip</dimen>
+    <dimen name="game_mode_max_width">572.0dip</dimen>
+</resources>

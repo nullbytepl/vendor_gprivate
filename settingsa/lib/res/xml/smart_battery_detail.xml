@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/smart_battery_manager_title" android:key="smart_battery_detail" app:keywords="@string/keywords_battery_adaptive_preferences"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.IllustrationPreference android:key="auto_awesome_battery" app:searchable="false" app:lottie_rawRes="@raw/lottie_adaptive_battery" />
+    <SwitchPreference android:title="@string/smart_battery_title" android:key="smart_battery" android:summary="@string/smart_battery_summary" app:controller="com.android.settings.fuelgauge.SmartBatteryPreferenceController" />
+    <SwitchPreference android:title="@string/battery_auto_restriction_title" android:key="auto_restriction" android:summary="@string/battery_auto_restriction_summary" app:controller="com.android.settings.fuelgauge.AutoRestrictionPreferenceController" />
+    <Preference android:title="@string/restricted_app_title" android:key="restricted_app" />
+    <SwitchPreference android:title="@string/adaptive_charging" android:key="adaptive_charging" android:summary="@string/adaptive_charging_description" app:controller="com.google.android.settings.fuelgauge.AdaptiveChargingPreferenceController" app:keywords="@string/keywords_adaptive_charging" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/smart_battery_footer" android:selectable="false" android:key="smart_battery_detail_footer" app:searchable="false" />
+</PreferenceScreen>

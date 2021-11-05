@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_assist_gesture" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/assist_gesture_training_intro_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/assist_gesture_training_intro_text" style="@style/SudDescription.Glif" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/assist_gesture_training_illustration" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/assist_gesture_illustration" />
+        </FrameLayout>
+        <Space android:layout_width="50.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

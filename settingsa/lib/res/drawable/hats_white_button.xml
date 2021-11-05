@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/hats_lib_survey_white_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/hats_lib_rounded_corner_radius" />
+            <solid android:color="@color/hats_lib_survey_white_shape_color" />
+        </shape>
+    </item>
+</ripple>

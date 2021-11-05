@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/hats_survey_question_text" />
+    <com.google.android.libraries.hats20.view.ScrollViewWithSizeCallback android:id="@id/hats_survey_question_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false" android:overScrollMode="never" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage_summary_screen" settings:keywords="@string/keywords_battery"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.UsageProgressBarPreference android:title="@string/summary_placeholder" android:selectable="false" android:key="battery_header" settings:controller="com.android.settings.fuelgauge.BatteryHeaderPreferenceController" />
+    <com.android.settingslib.widget.LayoutPreference android:layout="@layout/preference_battery_error" android:key="battery_help_message" settings:searchable="false">
+        <intent android:action="android.intent.action.VIEW" android:data="https://support.google.com/pixelphone/?p=p4xl_battery" />
+    </com.android.settingslib.widget.LayoutPreference>
+    <com.android.settings.widget.CardPreference android:title="@string/summary_placeholder" android:key="battery_tip" settings:controller="com.android.settings.fuelgauge.batterytip.BatteryTipPreferenceController" />
+    <Preference android:title="@string/advanced_battery_preference_title" android:key="battery_usage_summary" android:summary="@string/advanced_battery_preference_summary" android:fragment="com.android.settings.fuelgauge.PowerUsageAdvanced" settings:searchable="false" />
+    <Preference android:title="@string/battery_saver" android:key="battery_saver_summary" android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings" settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
+    <Preference android:title="@string/smart_battery_manager_title" android:key="smart_battery_manager" android:fragment="com.android.settings.fuelgauge.SmartBatterySettings" settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" settings:keywords="@string/keywords_battery_adaptive_preferences" settings:searchable="true" />
+    <Preference android:title="@string/reverse_charging_title" android:key="reverse_charging" android:fragment="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingDashboardFragment" settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingPreferenceController" settings:keywords="@string/keywords_battery_share_settings" settings:searchable="true" />
+    <SwitchPreference android:title="@string/battery_percentage" android:key="battery_percentage" android:summary="@string/battery_percentage_description" settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/battery_footer_summary" android:selectable="false" android:key="power_usage_footer" settings:searchable="false" />
+</PreferenceScreen>

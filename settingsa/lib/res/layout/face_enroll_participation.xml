@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:id="@id/face_enroll_participation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/face_enrolling_participation_title" style="@style/FaceLayoutTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <TextView android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_enrolling_participation_description" android:lineSpacingExtra="5.0dip" style="@*android:style/TextAppearance.DeviceDefault.Body2" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SudContentFrame">
+            <CheckBox android:id="@id/agree_to_participate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/face_consent" style="@*android:style/TextAppearance.DeviceDefault.Body2" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

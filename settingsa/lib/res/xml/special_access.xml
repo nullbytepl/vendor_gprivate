@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/special_access"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/manage_external_storage_title" android:key="manage_external_storage" android:fragment="com.android.settings.applications.manageapplications.ManageApplications">
+        <extra android:name="classname" android:value="com.android.settings.Settings$ManageExternalStorageActivity" />
+    </Preference>
+    <Preference android:title="@string/interact_across_profiles_title" android:key="interact_across_profiles" android:fragment="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesSettings" settings:controller="com.android.settings.applications.specialaccess.interactacrossprofiles.InteractAcrossProfilesController" settings:keywords="@string/interact_across_profiles_keywords" />
+    <Preference android:title="@string/manage_device_admin" android:key="device_administrators" android:summary="@string/summary_placeholder" android:fragment="com.android.settings.applications.specialaccess.deviceadmin.DeviceAdminSettings" settings:controller="com.android.settings.enterprise.ManageDeviceAdminPreferenceController" settings:searchable="false" />
+    <Preference android:title="@string/system_alert_window_settings" android:key="system_alert_window_app_list" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:controller="com.android.settings.applications.specialaccess.SystemAlertWindowPreferenceController" settings:keywords="@string/keywords_draw_overlay">
+        <extra android:name="classname" android:value="com.android.settings.Settings$OverlaySettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/manage_zen_access_title" android:key="zen_access" android:fragment="com.android.settings.notification.zen.ZenAccessSettings" settings:controller="com.android.settings.applications.specialaccess.zenaccess.ZenAccessController" />
+    <Preference android:title="@string/media_management_apps_title" android:key="media_management_apps" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_media_management_apps">
+        <extra android:name="classname" android:value="com.android.settings.Settings$MediaManagementAppsActivity" />
+    </Preference>
+    <Preference android:title="@string/write_settings" android:key="write_settings_apps" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_write_settings">
+        <extra android:name="classname" android:value="com.android.settings.Settings$WriteSettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/manage_notification_access_title" android:key="notification_access" android:fragment="com.android.settings.notification.NotificationAccessSettings" settings:controller="com.android.settings.applications.specialaccess.notificationaccess.NotificationAccessController" />
+    <Preference android:title="@string/picture_in_picture_title" android:key="picture_in_picture" android:fragment="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureSettings" settings:controller="com.android.settings.applications.specialaccess.pictureinpicture.PictureInPictureController" settings:keywords="@string/picture_in_picture_keywords" />
+    <Preference android:title="@string/premium_sms_access" android:key="premium_sms" android:fragment="com.android.settings.applications.specialaccess.premiumsms.PremiumSmsAccess" settings:controller="com.android.settings.applications.specialaccess.premiumsms.PremiumSmsController" />
+    <Preference android:title="@string/unrestricted_data_saver" android:key="data_saver" android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" settings:controller="com.android.settings.applications.specialaccess.DataSaverController" />
+    <Preference android:title="@string/install_other_apps" android:key="manage_external_sources" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_install_other_apps">
+        <extra android:name="classname" android:value="com.android.settings.Settings$ManageExternalSourcesActivity" />
+    </Preference>
+    <Preference android:title="@string/alarms_and_reminders_title" android:key="alarms_and_reminders" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_alarms_and_reminders">
+        <extra android:name="classname" android:value="com.android.settings.Settings$AlarmsAndRemindersActivity" />
+    </Preference>
+    <Preference android:title="@string/usage_access" android:key="special_app_usage_access" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_write_settings">
+        <extra android:name="classname" android:value="com.android.settings.Settings$UsageAccessSettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/vr_listeners_title" android:key="enabled_vr_listeners" android:fragment="com.android.settings.applications.specialaccess.vrlistener.VrListenerSettings" settings:controller="com.android.settings.applications.specialaccess.vrlistener.EnabledVrListenersController" settings:keywords="@string/keywords_vr_listener">
+        <extra android:name="classname" android:value="com.android.settings.Settings$VrListenersSettingsActivity" />
+    </Preference>
+    <Preference android:title="@string/change_wifi_state_title" android:key="change_wifi_state" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_change_wifi_state">
+        <extra android:name="classname" android:value="com.android.settings.Settings$ChangeWifiStateActivity" />
+    </Preference>
+    <Preference android:title="@string/special_access_more" android:key="special_access_more" settings:controller="com.android.settings.applications.specialaccess.MoreSpecialAccessPreferenceController" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.card.MaterialCardView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:importantForAccessibility="yes" style="@style/ContextualCardStyle">
+        <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:background="@color/battery_info_error_color_red" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/battery_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_warning_24dp" android:tint="@*android:color/material_red_A700" />
+            <TextView android:textAppearance="?android:textAppearanceListItem" android:textColor="@color/battery_info_error_color_black" android:id="@id/summary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:text="@string/battery_missing_message" />
+            <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="@*android:color/material_red_A700" android:layout_gravity="end" android:id="@id/link_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_missing_link_message" android:contentDescription="@string/battery_missing_link_a11y_message" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/game_settings_title" android:key="game_settings_screen" settings:controller="com.google.android.settings.games.GameSettingsController"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.IllustrationPreference android:key="game_settings_illustration" settings:searchable="false" settings:lottie_rawRes="@raw/game_settings_illustration" />
+    <SwitchPreference android:title="@string/game_dashboard_always_on_title" android:key="game_dashboard_always_on" android:summary="@string/game_dashboard_always_on_summary" settings:controller="com.google.android.settings.games.GameDashboardAlwaysOnController" />
+    <SwitchPreference android:title="@string/game_dashboard_dnd_title" android:key="game_dashboard_dnd" android:summary="@string/game_dashboard_dnd_summary" settings:controller="com.google.android.settings.games.GameDashboardDNDController" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/aware_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.VideoPreference android:title="@string/summary_placeholder" android:key="aware_settings_video" settings:animation="@raw/aware_settings" settings:controller="com.android.settings.widget.VideoPreferenceController" settings:preview="@drawable/aware_settings" />
+    <SwitchPreference android:title="@string/aware_settings_title" android:key="aware_toggle" settings:controller="com.google.android.settings.aware.AwarePreferenceController" settings:allowDividerAbove="true" />
+</PreferenceScreen>

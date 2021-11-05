@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <string-array name="allowlist_hide_background_in_battery_usage">
+        <item>com.google.android.GoogleCamera</item>
+    </string-array>
+    <string-array name="skip_direction_entries">
+        <item>@string/gesture_skip_direction_rtl</item>
+        <item>@string/gesture_skip_direction_ltr</item>
+    </string-array>
+    <string-array name="skip_direction_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wsu_service_provider_packages">
+        <item>com.google.android.apps.carrier.carrierwifi</item>
+    </string-array>
+    <array name="face_enroll_primary_buckets">
+    </array>
+    <array name="wlc_icon_bg_colors">
+        <item>@color/bt_color_bg_1</item>
+        <item>@color/bt_color_bg_2</item>
+        <item>@color/bt_color_bg_3</item>
+        <item>@color/bt_color_bg_4</item>
+        <item>@color/bt_color_bg_5</item>
+        <item>@color/bt_color_bg_6</item>
+        <item>@color/bt_color_bg_7</item>
+    </array>
+    <array name="wlc_icon_fg_colors">
+        <item>@color/bt_color_icon_1</item>
+        <item>@color/bt_color_icon_2</item>
+        <item>@color/bt_color_icon_3</item>
+        <item>@color/bt_color_icon_4</item>
+        <item>@color/bt_color_icon_5</item>
+        <item>@color/bt_color_icon_6</item>
+        <item>@color/bt_color_icon_7</item>
+    </array>
+    <attr name="autoResizeText_minTextSize"></attr>
+    <attr name="autoResizeText_resizeStepUnit"></attr>
+    <attr name="color_iphonecircle"></attr>
+    <attr name="color_iphoneface"></attr>
+    <attr name="color_iphoneoutline"></attr>
+    <attr name="color_nexusface"></attr>
+    <attr name="color_nexusoutline"></attr>
+    <attr name="fingerprint_sensor_location_color1"></attr>
+    <attr name="fingerprint_sensor_location_color2"></attr>
+    <attr name="fingerprint_sensor_location_color3"></attr>
+    <attr name="fingerprint_sensor_location_color4"></attr>
+    <attr name="fingerprint_sensor_location_color5"></attr>
+    <attr name="fingerprint_sensor_location_color6"></attr>
+    <attr name="fingerprint_sensor_location_color7"></attr>
+    <attr name="secureValue"></attr>
+    <attr name="textSizeMaxDp"></attr>
+    <bool name="config_connectivity_helper_call_quality_default_value">true</bool>
+    <bool name="config_connectivity_helper_d2d_default_value">false</bool>
+    <bool name="config_face_enroll_use_traffic_light">false</bool>
+    <bool name="config_face_settings_attention_supported">true</bool>
+    <bool name="config_face_settings_should_manage_preview">true</bool>
+    <bool name="config_gesture_settings_enabled">true</bool>
+    <bool name="config_handle_sim_slot_change">true</bool>
+    <bool name="config_has_help">true</bool>
+    <bool name="config_keep_contextual_card_dismissal_timestamp">true</bool>
+    <bool name="config_night_light_suggestion_enabled">false</bool>
+    <bool name="config_show_adaptive_connectivity">true</bool>
+    <bool name="config_show_avatar_in_homepage">true</bool>
+    <bool name="config_show_connectivity_helper_call_quality">false</bool>
+    <bool name="config_show_connectivity_helper_d2d">false</bool>
+    <bool name="config_show_device_header_in_device_info">false</bool>
+    <bool name="config_show_reverse_charging">false</bool>
+    <bool name="config_show_smart_storage_toggle">false</bool>
+    <bool name="config_show_touch_sensitivity">false</bool>
+    <bool name="config_storage_manager_settings_enabled">true</bool>
+    <bool name="config_suc_use_partner_resource">true</bool>
+    <bool name="config_support_enabled">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
+    <bool name="hats_lib_prompt_should_display">true</bool>
+    <bool name="hats_lib_survey_is_full_bleed">true</bool>
+    <bool name="hats_lib_survey_should_display_close_button">true</bool>
+    <bool name="hats_lib_survey_should_display_scrim">true</bool>
+    <color name="active_edge_indicator">#ff4182ef</color>
+    <color name="blue_500">#ff4285f4</color>
+    <color name="browser_actions_bg_grey">#fff5f5f5</color>
+    <color name="browser_actions_divider_color">#1e000000</color>
+    <color name="browser_actions_text_color">#de000000</color>
+    <color name="browser_actions_title_color">#ff646464</color>
+    <color name="columbus_highlight">#ff82b1ff</color>
+    <color name="face_enroll_cell_enrolled">#14ffffff</color>
+    <color name="face_enroll_cell_no_activity_end">#ffd2e3fc</color>
+    <color name="face_enroll_cell_no_activity_start">#00d2e3fc</color>
+    <color name="face_enroll_cell_not_enrolled">#ff4285f4</color>
+    <color name="face_enroll_cell_not_enrolled_primary">#b24285f4</color>
+    <color name="face_enroll_cell_not_enrolled_secondary">#00ffffff</color>
+    <color name="face_enroll_check_color">#ff42a5f5</color>
+    <color name="face_enroll_cursor_acquired">#ffffffff</color>
+    <color name="face_enroll_cursor_gone">#00ffffff</color>
+    <color name="face_enroll_cursor_shadow">#ff979797</color>
+    <color name="face_enroll_grid">#e0dadec0</color>
+    <color name="face_enroll_indicator">#ff1a73e8</color>
+    <color name="face_enroll_no_activity_gone">#00000000</color>
+    <color name="face_enroll_no_activity_showing">#6637474f</color>
+    <color name="face_enroll_out_of_fov_gone">#0037474f</color>
+    <color name="face_enroll_out_of_fov_showing">#b237474f</color>
+    <color name="face_enroll_pulse_circle_gone">#00ffffff</color>
+    <color name="face_enroll_pulse_circle_showing">#ffffffff</color>
+    <color name="face_enroll_single_capture_rotating_1">#ff1a73e8</color>
+    <color name="face_enroll_single_capture_rotating_2">#ff669df6</color>
+    <color name="face_enroll_single_capture_rotating_3">#ffaecbfa</color>
+    <color name="face_enroll_single_capture_rotating_4">#ffe8f0fe</color>
+    <color name="face_pill_idle">#ffdadce0</color>
+    <color name="face_pill_pulsing">#ffbdc1c6</color>
+    <color name="face_pill_shrinked">#ff4285f4</color>
+    <color name="face_progress_bar_complete">#ff1a73e8</color>
+    <color name="hats_lib_checkbox_tint">#8c333333</color>
+    <color name="hats_lib_open_text_underline">#ff4285f4</color>
+    <color name="hats_lib_prompt_take_survey_blue">#ff4285f4</color>
+    <color name="hats_lib_prompt_take_survey_blue_focused">#ff21437c</color>
+    <color name="hats_lib_prompt_take_survey_blue_pressed">#ff3d7ce3</color>
+    <color name="hats_lib_prompt_text_color">#ff212121</color>
+    <color name="hats_lib_survey_control_normal">#ff9b9b9b</color>
+    <color name="hats_lib_survey_highlight_color">#ffeeeeee</color>
+    <color name="hats_lib_survey_question_text_color">#ff333333</color>
+    <color name="hats_lib_survey_text_color">#ff757575</color>
+    <color name="hats_lib_survey_white_ripple_color">#ff757575</color>
+    <color name="hats_lib_survey_white_shape_color">#ffffffff</color>
+    <color name="hats_lib_survey_white_shape_focused_color">#ff848484</color>
+    <color name="hats_lib_survey_white_shape_pressed_color">#ffeeeeee</color>
+    <color name="hats_lib_white_100">#ffffffff</color>
+    <color name="security_green">#ff1e8e3e</color>
+    <color name="security_red">#ffd93025</color>
+    <color name="security_status_unfilled_wedge">#ffdadce0</color>
+    <color name="security_yellow">#fff9ab00</color>
+    <dimen name="app_bar_height">64.0dip</dimen>
+    <dimen name="assist_error_distance_top">24.0dip</dimen>
+    <dimen name="assist_gesture_error_text_appear_distance">16.0dip</dimen>
+    <dimen name="assist_gesture_error_text_disappear_distance">-8.0dip</dimen>
+    <dimen name="assist_gesture_indicator_width">80.0dip</dimen>
+    <dimen name="assist_illustration_layout_height">240.0dip</dimen>
+    <dimen name="assist_illustration_layout_width">240.0dip</dimen>
+    <dimen name="browser_actions_context_menu_max_width">500.0dip</dimen>
+    <dimen name="browser_actions_context_menu_min_padding">20.0dip</dimen>
+    <dimen name="chart_view_divider_height">4.0dip</dimen>
+    <dimen name="chart_view_divider_width">1.0dip</dimen>
+    <dimen name="chart_view_trapezoid_offset_h">1.0dip</dimen>
+    <dimen name="chart_view_trapezoid_offset_v">2.0dip</dimen>
+    <dimen name="chart_view_trapezoid_radius">2.0dip</dimen>
+    <dimen name="columbus_action_list_item_spacing_vertical">16.0dip</dimen>
+    <dimen name="columbus_animation_layout_height">320.0dip</dimen>
+    <dimen name="columbus_animation_layout_width">320.0dip</dimen>
+    <dimen name="columbus_app_icon_padding">16.0dip</dimen>
+    <dimen name="columbus_app_icon_size">32.0dip</dimen>
+    <dimen name="columbus_app_list_item_spacing_horizontal">16.0dip</dimen>
+    <dimen name="columbus_app_list_item_spacing_vertical">8.0dip</dimen>
+    <dimen name="columbus_app_list_padding">10.0dip</dimen>
+    <dimen name="columbus_enroll_illustration_stroke_width">10.0dip</dimen>
+    <dimen name="columbus_extras_icon_padding">12.0dip</dimen>
+    <dimen name="columbus_illustration_layout_height">240.0dip</dimen>
+    <dimen name="columbus_illustration_layout_width">240.0dip</dimen>
+    <dimen name="columbus_list_item_text_spacing">32.0dip</dimen>
+    <dimen name="face_error_text_appear_distance">16.0dip</dimen>
+    <dimen name="hats_lib_close_button_bottom_left_padding">18.0dip</dimen>
+    <dimen name="hats_lib_close_button_size">42.0dip</dimen>
+    <dimen name="hats_lib_close_button_top_right_padding">6.0dip</dimen>
+    <dimen name="hats_lib_close_ripple_radius">20.0dip</dimen>
+    <dimen name="hats_lib_container_padding">8.0dip</dimen>
+    <dimen name="hats_lib_container_padding_left">24.0dip</dimen>
+    <dimen name="hats_lib_multiple_choice_item_padding">12.0dip</dimen>
+    <dimen name="hats_lib_open_text_active_bottom_border_height">2.0dip</dimen>
+    <dimen name="hats_lib_open_text_inactive_bottom_border_height">1.0dip</dimen>
+    <dimen name="hats_lib_open_text_input_min_height">54.0dip</dimen>
+    <dimen name="hats_lib_open_text_question_min_height">180.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_bottom_padding">10.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_elevation_card">8.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_elevation_sheet">16.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_height">120.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_left_padding">24.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_right_padding">16.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_tall_height">136.0dip</dimen>
+    <dimen name="hats_lib_prompt_banner_top_padding">24.0dip</dimen>
+    <dimen name="hats_lib_prompt_button_height">48.0dip</dimen>
+    <dimen name="hats_lib_prompt_buttons_max_text_size">14.0dip</dimen>
+    <dimen name="hats_lib_prompt_buttons_text_size">14.0sp</dimen>
+    <dimen name="hats_lib_prompt_buttons_vertical_padding">6.0dip</dimen>
+    <dimen name="hats_lib_prompt_max_width">376.0dip</dimen>
+    <dimen name="hats_lib_question_view_elevation">4.0dip</dimen>
+    <dimen name="hats_lib_rating_container_padding">8.0dip</dimen>
+    <dimen name="hats_lib_rating_image_height">44.0dip</dimen>
+    <dimen name="hats_lib_rating_logo_margin_right">8.0dip</dimen>
+    <dimen name="hats_lib_rating_survey_min_height">100.0dip</dimen>
+    <dimen name="hats_lib_rounded_corner_radius">2.0dip</dimen>
+    <dimen name="hats_lib_survey_answer_font_size">16.0sp</dimen>
+    <dimen name="hats_lib_survey_answer_height">48.0dip</dimen>
+    <dimen name="hats_lib_survey_answers_padding_top_and_bottom">8.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_height">48.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_logo_height">18.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_logo_width">50.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_padding_bottom">12.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_padding_top">12.0dip</dimen>
+    <dimen name="hats_lib_survey_controls_view_elevation">35.0dip</dimen>
+    <dimen name="hats_lib_survey_header_bottom_padding">16.0dip</dimen>
+    <dimen name="hats_lib_survey_header_font_size">20.0sp</dimen>
+    <dimen name="hats_lib_survey_header_top_padding">24.0dip</dimen>
+    <dimen name="hats_lib_survey_horizontal_padding">24.0dip</dimen>
+    <dimen name="hats_lib_survey_horizontal_right_padding">12.0dip</dimen>
+    <dimen name="hats_lib_survey_max_height">420.0dip</dimen>
+    <dimen name="hats_lib_survey_max_width">360.0dip</dimen>
+    <dimen name="hats_lib_survey_page_margin">66.0dip</dimen>
+    <dimen name="hats_lib_survey_question_text_right_padding">48.0dip</dimen>
+    <dimen name="hats_lib_thank_you_height">84.0dip</dimen>
+    <dimen name="reverse_charging_bottom_sheet_image_size">240.0dip</dimen>
+    <dimen name="reverse_charging_bottom_sheet_min_height">350.0dip</dimen>
+    <dimen name="suggestion_card_corner_radius">28.0dip</dimen>
+    <dimen name="suggestion_card_icon_margin_start">20.0dip</dimen>
+    <dimen name="suggestion_card_margin_horizontal">16.0dip</dimen>
+    <dimen name="suggestion_card_margin_top">16.0dip</dimen>
+    <dimen name="suggestion_card_text_padding_end">24.0dip</dimen>
+    <dimen name="suggestion_card_text_padding_start">16.0dip</dimen>
+    <dimen name="suggestion_card_text_padding_vertical">18.0dip</dimen>
+    <item type="dimen" name="hats_lib_survey_answer_line_spacing_multiplier">1.1</item>
+    <item type="dimen" name="hats_lib_survey_header_question_line_spacing_multiplier">1.1</item>
+    <item type="id" name="agree_to_participate"></item>
+    <item type="id" name="assist_gesture_illustration_animation"></item>
+    <item type="id" name="assist_gesture_sensitivity_seekbar"></item>
+    <item type="id" name="assist_gesture_training_check"></item>
+    <item type="id" name="assist_gesture_training_illustration"></item>
+    <item type="id" name="browser_actions_header_text"></item>
+    <item type="id" name="browser_actions_menu_item_icon"></item>
+    <item type="id" name="browser_actions_menu_item_text"></item>
+    <item type="id" name="browser_actions_menu_items"></item>
+    <item type="id" name="browser_actions_menu_view"></item>
+    <item type="id" name="card"></item>
+    <item type="id" name="columbus_gesture_illustration"></item>
+    <item type="id" name="content_container"></item>
+    <item type="id" name="current_score"></item>
+    <item type="id" name="distance_indicator_view"></item>
+    <item type="id" name="face_check"></item>
+    <item type="id" name="face_enroll_confirmation"></item>
+    <item type="id" name="face_enroll_participation"></item>
+    <item type="id" name="face_enrolled_anim"></item>
+    <item type="id" name="face_smiley"></item>
+    <item type="id" name="game_view"></item>
+    <item type="id" name="hats_lib_close_button"></item>
+    <item type="id" name="hats_lib_multiple_select_checkbox"></item>
+    <item type="id" name="hats_lib_next"></item>
+    <item type="id" name="hats_lib_overall_container"></item>
+    <item type="id" name="hats_lib_prompt_banner"></item>
+    <item type="id" name="hats_lib_prompt_buttons"></item>
+    <item type="id" name="hats_lib_prompt_container"></item>
+    <item type="id" name="hats_lib_prompt_no_thanks_button"></item>
+    <item type="id" name="hats_lib_prompt_no_thanks_wrapper"></item>
+    <item type="id" name="hats_lib_prompt_take_survey_button"></item>
+    <item type="id" name="hats_lib_prompt_take_survey_wrapper"></item>
+    <item type="id" name="hats_lib_prompt_title_text"></item>
+    <item type="id" name="hats_lib_star_rating_bar"></item>
+    <item type="id" name="hats_lib_survey_answers_container"></item>
+    <item type="id" name="hats_lib_survey_container"></item>
+    <item type="id" name="hats_lib_survey_controls_container"></item>
+    <item type="id" name="hats_lib_survey_multiple_choice_icon"></item>
+    <item type="id" name="hats_lib_survey_multiple_choice_text"></item>
+    <item type="id" name="hats_lib_survey_open_text"></item>
+    <item type="id" name="hats_lib_survey_question_rating_container"></item>
+    <item type="id" name="hats_lib_survey_question_text"></item>
+    <item type="id" name="hats_lib_survey_rating_high_value_text"></item>
+    <item type="id" name="hats_lib_survey_rating_icon"></item>
+    <item type="id" name="hats_lib_survey_rating_images_container"></item>
+    <item type="id" name="hats_lib_survey_rating_low_value_text"></item>
+    <item type="id" name="hats_lib_survey_viewpager"></item>
+    <item type="id" name="hats_lib_thank_you"></item>
+    <item type="id" name="hats_survey_question_scroll_view"></item>
+    <item type="id" name="indicator_view"></item>
+    <item type="id" name="learn_more_btn"></item>
+    <item type="id" name="nav_bar"></item>
+    <item type="id" name="ok_btn"></item>
+    <item type="id" name="percentage_number"></item>
+    <item type="id" name="play_view"></item>
+    <item type="id" name="show_more_title"></item>
+    <item type="id" name="square_frame_layout"></item>
+    <item type="id" name="status_image"></item>
+    <item type="id" name="status_summary"></item>
+    <item type="id" name="status_title"></item>
+    <item type="id" name="text_container"></item>
+    <item type="id" name="toolbar_title"></item>
+    <item type="id" name="toolbar_wrapper"></item>
+    <item type="id" name="video_view"></item>
+    <integer name="gesture_assist_sensitivity_default">4</integer>
+    <integer name="gesture_assist_sensitivity_max">8</integer>
+    <integer name="haptics_level_max">2</integer>
+    <plurals name="security_settings_hub_show_warnings_preference">
+        <item quantity="other">See all warnings (%1$d)</item>
+        <item quantity="one">Show %1$d warning</item>
+    </plurals>
+    <plurals name="security_settings_hub_warnings_title">
+        <item quantity="other">%1$d warnings</item>
+        <item quantity="one">%1$d warning</item>
+    </plurals>
+    <string name="aware_category_display"></string>
+    <string name="aware_category_gesture"></string>
+    <string name="aware_display_settings_title">Idle lock screen</string>
+    <string name="aware_settings_description"></string>
+    <string name="aware_settings_summary"></string>
+    <string name="aware_settings_title">Aware Settings</string>
+    <string name="display_settings">Display</string>
+    <string name="gesture_silence_title">Silence alerts gesture</string>
+    <string name="gesture_skip_title">Skip gesture</string>
+    <string name="gesture_tap_title">Tap Gesture</string>
+    <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
+    <string name="keywords_wake_display"></string>
+    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
+    <string name="accessibility_vibration_settings_screen_title">Use vibration &amp; haptics</string>
+    <string name="vibration_haptics_settings_not_available_summary">Vibration &amp; haptics are unavailable because phone is set to silent</string>
+    <string name="vibration_haptics_strength_category_title">Vibration &amp; haptic strength</string>
+    <string name="columbus_title">@string/columbus_name</string>
+    <string name="vibrate_for_calls_category_title">Calls</string>
+    <string name="accessibility_alarm_vibration_title">Alarm vibration</string>
+    <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge set up. Go to the next screen or keep adjusting.</string>
+    <string name="accessibility_keyboard_haptics_title">Keyboard haptics</string>
+    <string name="accessibility_settings">Accessibility</string>
+    <string name="accessibility_vibration_preferences_file">VibrationPrefs</string>
+    <string name="account_confirmation_class">com.google.android.gms.auth.uiflows.factoryreset.PreFactoryResetActivity</string>
+    <string name="account_confirmation_package">com.google.android.gms</string>
+    <string name="account_type">com.google</string>
+    <string name="adaptive_charging">Adaptive Charging</string>
+    <string name="adaptive_charging_description">Charge steadily overnight to preserve long-term battery life. Uses alarm to completely charge by wakeup.</string>
+    <string name="adaptive_charging_time_estimate"> • Full by %1$s</string>
+    <string name="ambient_display_wake_screen_footer"></string>
+    <string name="ambient_display_wake_screen_summary"></string>
+    <string name="ambient_display_wake_screen_summary_on"></string>
+    <string name="app_and_notification_dashboard_summary">Assistant, recent apps, default apps</string>
+    <string name="assist_gesture_enrollment_continue_to_assistant">Continue to Assistant</string>
+    <string name="assist_gesture_enrollment_do_it_later">Do it later</string>
+    <string name="assist_gesture_enrollment_seekbar_light">Light squeeze</string>
+    <string name="assist_gesture_enrollment_seekbar_strong">Firm squeeze</string>
+    <string name="assist_gesture_enrollment_settings">Settings</string>
+    <string name="assist_gesture_setting_enable_assistant_text">To talk to your Assistant, quickly squeeze the bottom half of your phone, then release</string>
+    <string name="assist_gesture_setting_enable_assistant_title">Squeeze for your Assistant</string>
+    <string name="assist_gesture_setting_enable_ring_alarm_silence_text">Squeeze to silence alarms, timers, notifications, and incoming calls</string>
+    <string name="assist_gesture_setting_enable_ring_silence_text">Squeeze to silence notifications and incoming calls</string>
+    <string name="assist_gesture_setting_enable_ring_silence_title">Squeeze to silence phone</string>
+    <string name="assist_gesture_setting_enable_wake_title">Open Assistant when screen is off</string>
+    <string name="assist_gesture_squeeze_help_maximum_sensitivity">Light squeeze</string>
+    <string name="assist_gesture_squeeze_help_minimum_sensitivity">Firm squeeze</string>
+    <string name="assist_gesture_squeeze_sensitivity_label">Squeeze sensitivity</string>
+    <string name="assist_gesture_training_enrolling_error_may_cause_falsing">May bring up Assistant accidentally</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_bottom">Squeeze the bottom half of your phone</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_faster">Squeeze faster</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_harder">Squeeze harder</string>
+    <string name="assist_gesture_training_enrolling_error_squeeze_release_quickly">Squeeze quickly and then release</string>
+    <string name="assist_gesture_training_enrolling_error_try_adjusting">Try adjusting the slider</string>
+    <string name="assist_gesture_training_enrolling_text">Squeeze the bottom half of your phone. You can adjust how strongly you need to squeeze.</string>
+    <string name="assist_gesture_training_enrolling_title">Squeeze quickly and release</string>
+    <string name="assist_gesture_training_finished_text">You can also change the squeeze sensitivity later in Settings</string>
+    <string name="assist_gesture_training_finished_title">Finish up or keep adjusting</string>
+    <string name="assist_gesture_training_intro_text">To talk to your Assistant at any time, quickly squeeze the bottom half of your phone, then release</string>
+    <string name="assist_gesture_training_intro_title">Squeeze for your Assistant</string>
+    <string name="assist_gesture_training_suggestion_summary">Talk to Assistant, silence calls</string>
+    <string name="assist_gesture_training_suggestion_summary_including_alarms">Talk to Assistant, silence alarms and calls</string>
+    <string name="assist_gesture_training_suggestion_title">Squeeze and release for Assistant</string>
+    <string name="automatic_storage_manager_activation_warning">"When you're connected, you can still access photos and videos at the quality you selected for backup"</string>
+    <string name="automatic_storage_manager_days_title">Remove backed up photos &amp; videos</string>
+    <string name="automatic_storage_manager_deactivation_warning">"Turn off Smart Storage? 
+
+Smart Storage won't free up space when your storage is almost full."</string>
+    <string name="automatic_storage_manager_downloads_days_title">Backed up downloads</string>
+    <string name="automatic_storage_manager_preference_title">Smart Storage</string>
+    <string name="automatic_storage_manager_primary_switch_title">Use Smart Storage</string>
+    <string name="automatic_storage_manager_settings">Smart Storage</string>
+    <string name="automatic_storage_manager_text">When storage is almost full, remove backed up photos and videos. You can still find them in Google Photos.</string>
+    <string name="aware_category_security"></string>
+    <string name="aware_disabled_preference_action">Turn on</string>
+    <string name="aware_disabled_preference_dialog_content"></string>
+    <string name="aware_disabled_preference_dialog_title"></string>
+    <string name="aware_disabled_preference_neutral">Not now</string>
+    <string name="aware_footer_when_airplane_batterysaver_on">Motion Sense is unavailable because airplane mode and Battery Saver are on</string>
+    <string name="aware_footer_when_airplane_on">Motion Sense is unavailable because airplane mode is on</string>
+    <string name="aware_footer_when_batterysaver_on">Motion Sense is unavailable because Battery Saver is on</string>
+    <string name="aware_gesture_summary_off">Quick Gestures on, Active Edge turned off</string>
+    <string name="aware_gesture_summary_on_non_assist">Quick Gestures on, Active Edge turned on</string>
+    <string name="aware_gesture_summary_on_with_assist">Quick Gestures on, Active Edge on, squeeze for your Assistant</string>
+    <string name="aware_info_button_description">More settings</string>
+    <string name="aware_settings_disabled_info_dialog_content"></string>
+    <string name="aware_settings_disabled_info_dialog_title"></string>
+    <string name="aware_settings_enabled_info_dialog_content"></string>
+    <string name="aware_settings_enabled_info_dialog_title"></string>
+    <string name="aware_settings_suggestion_summary"></string>
+    <string name="aware_settings_suggestion_title"></string>
+    <string name="aware_summary_when_airplane_batterysaver_on">Unavailable because airplane mode and Battery Saver are on</string>
+    <string name="aware_summary_when_airplane_on">Unavailable because airplane mode is on</string>
+    <string name="aware_summary_when_batterysaver_on">Unavailable because Battery Saver is on</string>
+    <string name="aware_wake_display_summary"></string>
+    <string name="aware_wake_display_summary_aod_off"></string>
+    <string name="aware_wake_display_title"></string>
+    <string name="backup_suggestion_cancel">Cancel</string>
+    <string name="backup_suggestion_dialog_description">"This will delete all data from your phone's internal storage."</string>
+    <string name="backup_suggestion_dialog_title">Reset this device?</string>
+    <string name="backup_suggestion_get_started">learn more</string>
+    <string name="backup_suggestion_item_summary">Copy from Android or iPhone® device</string>
+    <string name="backup_suggestion_item_title">Missing data from old phone?</string>
+    <string name="backup_suggestion_missing_description">"If you don't see some of your data, like SMS messages and photos, you can transfer it to your Pixel by using a cable.
+
+To get started, your Pixel needs to be reset. All data on this phone, including customized settings and content not synced to the cloud, will be deleted."</string>
+    <string name="backup_suggestion_missing_title">Missing your data?</string>
+    <string name="backup_suggestion_next">next</string>
+    <string name="backup_suggestion_other_ways_to_copy">Other ways to copy data</string>
+    <string name="backup_suggestion_reset_description">"On the next screen, you can reset your Pixel. This is the only way to transfer data using a cable.
+
+Once it resets, go through the setup process and choose to bring your data from your previous phone."</string>
+    <string name="backup_suggestion_reset_title">Reset your Pixel</string>
+    <string name="backup_suggestion_what_is_needed_summary">"After you reset your phone, you'll need:
+
+• Your previous phone (LINK_BEGINmost phonesLINK_END on Android 5.0+ or iOS® 8.0+ are supported)
+• A charging or data cable for your previous phone
+• The Quick Switch Adapter that came with your Pixel"</string>
+    <string name="backup_suggestion_what_is_needed_title">"What you'll need"</string>
+    <string name="battery_manager_summary">Extend battery life and optimize charging</string>
+    <string name="battery_suggestion_summary">Turn on Adaptive Battery</string>
+    <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
+    <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this Google Account</string>
+    <string name="columbus_gesture_detected">Quick Tap detected!</string>
+    <string name="columbus_gesture_enrollment_complete">Done</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
+    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
+    <string name="columbus_gesture_enrollment_try_it">Try it</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
+    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
+    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
+    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
+    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
+    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
+    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
+    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
+    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
+    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
+    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
+    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
+    <string name="columbus_name">Quick Tap</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
+    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
+    <string name="columbus_setting_action_assistant_value">assistant</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
+    <string name="columbus_setting_action_launch_title">Open app</string>
+    <string name="columbus_setting_action_launch_value">launch</string>
+    <string name="columbus_setting_action_notification_title">Show notifications</string>
+    <string name="columbus_setting_action_notification_value">notifications</string>
+    <string name="columbus_setting_action_open_app_title">Open app</string>
+    <string name="columbus_setting_action_overview_title">See recent apps</string>
+    <string name="columbus_setting_action_overview_value">overview</string>
+    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
+    <string name="columbus_setting_action_play_pause_value">media</string>
+    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
+    <string name="columbus_setting_action_screenshot_value">screenshot</string>
+    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
+    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
+    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
+    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
+    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
+    <string name="columbus_summary">%1$s / %2$s</string>
+    <string name="config_account_intent_uri">intent:#Intent;action=com.android.settings.action.VIEW_ACCOUNT;category=android.intent.category.DEFAULT;launchFlags=0x8000;S.extra.callingPackageName=com.android.settings;end</string>
+    <string name="config_battery_prediction_authority">com.google.android.apps.turbo.bluetooth.estimated_time_remaining</string>
+    <string name="config_bluetooth_device_settings_uri">content://com.google.android.apps.wearables.maestro.companion/settings_slice?addr=%1$s</string>
+    <string name="config_deletion_helper_package">com.google.android.storagemanager</string>
+    <string name="config_emergency_intent_action">com.google.android.safetyhub.SAFETY_HUB</string>
+    <string name="config_emergency_package_name">com.google.android.apps.safetyhub</string>
+    <string name="config_face_enroll_traffic_light_package"></string>
+    <string name="config_featureFactory">com.google.android.settings.overlay.FeatureFactoryImpl</string>
+    <string name="config_grayscale_settings_intent">intent:#Intent;action=com.google.android.apps.wellbeing.action.WIND_DOWN;launchFlags=0x10000000;end</string>
+    <string name="config_non_public_slice_query_uri">content://com.android.settings.slices/settings_internal_slices</string>
+    <string name="config_rtt_setting_intent_action">com.android.dialer.rtt.settings.impl.gateway.ACTION_OPEN_RTT_SETTINGS</string>
+    <string name="config_rtt_setting_package_name">com.google.android.dialer</string>
+    <string name="config_settingsintelligence_log_action">com.google.android.settings.intelligence.LOG_BRIDGE</string>
+    <string name="config_settingsintelligence_package_name">com.google.android.settings.intelligence</string>
+    <string name="config_styles_and_wallpaper_picker_class">com.android.customization.picker.CustomizationPickerActivity</string>
+    <string name="config_wallpaper_picker_class">com.google.android.apps.wallpaper.picker.CategoryPickerActivity</string>
+    <string name="config_wallpaper_picker_package">com.google.android.apps.wallpaper</string>
+    <string name="connectivity_helper_call_quality_category">Call quality</string>
+    <string name="connectivity_helper_call_quality_summary">Get notified about causes of connection issues during calls</string>
+    <string name="connectivity_helper_call_quality_title">Get notifications</string>
+    <string name="connectivity_helper_d2d_summary">Notify the other person when your phone has connection issues during calls</string>
+    <string name="connectivity_helper_d2d_title">Share connection info</string>
+    <string name="connectivity_helper_footnote">You can share connection info when the other caller is using a supported device and network</string>
+    <string name="content_capture">Personalize using app data</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="dialog_aware_settings_message"></string>
+    <string name="dialog_aware_settings_ok"></string>
+    <string name="dialog_aware_settings_title"></string>
+    <string name="dock_summary_charging_phone">Charging phone</string>
+    <string name="double_twist_for_camera_mode_summary">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app.</string>
+    <string name="downloads_backup_text">Downloaded files will be backed up to Google Drive</string>
+    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="emergency_gesture_settings_package">com.google.android.apps.safetyhub</string>
+    <string name="extra_app_info_label">Game Optimization</string>
+    <string name="face_consent">I agree</string>
+    <string name="face_enrolling_center_head">Fit your face in the inner frame</string>
+    <string name="face_enrolling_confirm_help_debug">Confirm</string>
+    <string name="face_enrolling_description">Capture all angles of your face by removing all the tiles.</string>
+    <string name="face_enrolling_do_it_later">Do it later</string>
+    <string name="face_enrolling_gaze_dialog_cancel">Cancel</string>
+    <string name="face_enrolling_gaze_dialog_continue">Set up without eyes open</string>
+    <string name="face_enrolling_gaze_dialog_message">Do you want to set up Face Unlock without requiring your eyes to be open? If you set up this way, someone can unlock your phone by pointing it at your face when you’re not aware.</string>
+    <string name="face_enrolling_gaze_dialog_title">Set up without eyes open</string>
+    <string name="face_enrolling_how_to_setup">How to set up</string>
+    <string name="face_enrolling_participation_description">"Do you want to provide droidfood feedback for Face Unlock? We need data from a diverse set of users using the feature in real-world scenarios to make sure our Face Unlock works equally well for all our users.
+
+If you volunteer to participate, data collected from unlock attempts (e.g. facial imagery) will be made available in the preinstalled Overlay data collection app. Your facial imagery data will be uploaded to and shared with Google ONLY upon your review and explicit consent in the Overlay app. Model performance metadata from unlock attempts will be collected via Android metrics."</string>
+    <string name="face_enrolling_participation_title">Help make Face Unlock better</string>
+    <string name="face_enrolling_skip_help_debug">Skip</string>
+    <string name="face_enrolling_title">Hold the phone still. Rotate your head. Go slow.</string>
+    <string name="face_enrolling_title_accessibility">Look directly at your phone</string>
+    <string name="face_enrolling_title_accessibility_progress">Keep looking directly at your phone</string>
+    <string name="face_enrolling_too_close">Move phone farther away</string>
+    <string name="face_enrolling_too_far">Move phone closer</string>
+    <string name="face_enrolling_too_high">Move phone lower</string>
+    <string name="face_enrolling_too_left">Move phone to your right</string>
+    <string name="face_enrolling_too_low">Move phone higher</string>
+    <string name="face_enrolling_too_right">Move phone to your left</string>
+    <string name="face_enrolling_turn_head_to_arrow">Turn your head toward the arrow</string>
+    <string name="face_enrolling_turned_too_far">Turn head a little less</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fullbackup_data_summary">"Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) to Google Drive.
+
+When you turn on automatic backup, device and app data is periodically saved to a private folder in Google Drive. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos.
+
+Backup data will not count towards your Drive storage quota. Large files, or files developers have chosen to exclude from the service will not be backed up."</string>
+    <string name="fullbackup_erase_dialog_message">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on Google Drive?</string>
+    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
+    <string name="game_dashboard_always_on_title">Game Dashboard</string>
+    <string name="game_dashboard_dnd_rule_name">Gaming</string>
+    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
+    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <string name="game_mode_battery_description">Extends battery life</string>
+    <string name="game_mode_battery_title">Battery Saver</string>
+    <string name="game_mode_performance_description">Maximizes frame rate, uses more battery</string>
+    <string name="game_mode_performance_title">Performance</string>
+    <string name="game_mode_standard_description">Uses the game’s defaults</string>
+    <string name="game_mode_standard_title">Standard</string>
+    <string name="game_optimization_unavailable">Not available for this game</string>
+    <string name="gesture_assist_component">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="gesture_assist_deskclock_package">com.google.android.deskclock</string>
+    <string name="gesture_assist_deskclock_permission">com.google.android.deskclock.permission.RECEIVE_ALERT_BROADCASTS</string>
+    <string name="gesture_aware_confirmation_action_button">Got it</string>
+    <string name="gesture_aware_disabled_info_dialog_content"></string>
+    <string name="gesture_aware_footer"></string>
+    <string name="gesture_aware_off_dialog_content"></string>
+    <string name="gesture_aware_off_dialog_title"></string>
+    <string name="gesture_double_twist_sensor_vendor">Google</string>
+    <string name="gesture_silence_footer"></string>
+    <string name="gesture_silence_off_summary"></string>
+    <string name="gesture_silence_on_summary"></string>
+    <string name="gesture_silence_summary"></string>
+    <string name="gesture_skip_direction_ltr">Left to right</string>
+    <string name="gesture_skip_direction_rtl">Right to left</string>
+    <string name="gesture_skip_direction_title">Skip Direction</string>
+    <string name="gesture_skip_footer"></string>
+    <string name="gesture_skip_off_summary"></string>
+    <string name="gesture_skip_on_summary"></string>
+    <string name="gesture_skip_summary"></string>
+    <string name="gesture_tap_footer"></string>
+    <string name="gesture_tap_on_summary"></string>
+    <string name="gesture_tap_summary"></string>
+    <string name="global_actions_panel_short_title">Cards &amp; passes</string>
+    <string name="global_actions_panel_summary">To access things like your payment methods and boarding passes, press and hold the Power button.</string>
+    <string name="global_actions_panel_title">Show cards &amp; passes</string>
+    <string name="hats_lib_close_button_description">Close</string>
+    <string name="hats_lib_default_prompt_title">Please help us improve Google.</string>
+    <string name="hats_lib_default_star_rating_bar_description">Star Rating Bar</string>
+    <string name="hats_lib_default_thank_you">Thank you for your feedback!</string>
+    <string name="hats_lib_next">Next</string>
+    <string name="hats_lib_none_of_the_above">None of the above</string>
+    <string name="hats_lib_open_text_hint">Enter your comments here</string>
+    <string name="hats_lib_open_text_no_pii">"Don't include personal information"</string>
+    <string name="hats_lib_prompt_no_thanks">No thanks</string>
+    <string name="hats_lib_prompt_take_our_survey">Take our survey</string>
+    <string name="hats_lib_submit">Submit</string>
+    <string name="help_uri_usb_warm">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_usb_warm;end</string>
+    <string name="help_url_connectivity_helper">https://support.google.com/pixelphone?p=connectivity_helper</string>
+    <string name="install_unknown_applications">Allow installation of apps from sources other than the Play Store</string>
+    <string name="keywords_accessibility_menu">motor, quick menu, assistive menu, touch, dexterity</string>
+    <string name="keywords_adaptive_charging">charge, charging, smart charging, adaptive charging, battery, battery health</string>
+    <string name="keywords_assist_gesture_silence">gesture, edge, side, active edge, silence, snooze, alarm, incoming call, quiet, display, lockscreen, squeeze, grip, stop</string>
+    <string name="keywords_assist_gesture_wake">gesture, edge, side, active edge, wake, notifications, screen, display, screen off, screen on, squeeze, asleep, sleep, grip</string>
+    <string name="keywords_battery_share">battery share, wireless charging</string>
+    <string name="keywords_battery_share_settings">battery share, reverse wireless charging</string>
+    <string name="keywords_content_capture">content capture, app content, app data</string>
+    <string name="keywords_gesture">gesture, moves</string>
+    <string name="keywords_gesture_silence"></string>
+    <string name="keywords_gesture_skip"></string>
+    <string name="keywords_gesture_tap"></string>
+    <string name="keywords_global_actions_panel">cards, passes</string>
+    <string name="keywords_live_transcribe">Captions, closed captions, CC, Live Caption, hard of hearing, hearing loss, CART, speech to text, subtitle</string>
+    <string name="keywords_reverse_charging_stop_threshold">Stop sharing battery when phone reaches:</string>
+    <string name="keywords_select_to_speak">Hear text, read aloud, speak screen, screen reader</string>
+    <string name="keywords_sound_amplifier">PSAP, amplify, sound amplification, hard of hearing, hearing loss, amplification</string>
+    <string name="keywords_sound_notifications">Notifications, hard of hearing, hearing loss, notify</string>
+    <string name="keywords_switch_access">motor, switch, hand, AT, assistive technology, paralysis, ALS, scanning, step scanning</string>
+    <string name="keywords_talkback">Screen reader, Voice Over, VoiceOver, Voice Assistance, Blind, Low Vision, TTS, text to speech, spoken feedback</string>
+    <string name="keywords_voice_access">voice, voice control, motor, hand, mic, microphone, dictation, talk, control</string>
+    <string name="language_input_gesture_summary_off">Active Edge turned off</string>
+    <string name="language_input_gesture_summary_on_non_assist">Active Edge turned on</string>
+    <string name="language_input_gesture_summary_on_with_assist">Active Edge on, squeeze for your Assistant</string>
+    <string name="lock_settings_picker_fingerprint_message">Choose a backup screen lock to use with Nexus Imprint</string>
+    <string name="me_card_title">My Pixel</string>
+    <string name="my_device_info_account_preference_title">Google Account</string>
+    <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
+    <string name="power_usage_summary">What has been using the battery</string>
+    <string name="reverse_charging_charging_wirelessly_message">Unavailable because phone charging wirelessly</string>
+    <string name="reverse_charging_detail_charging_overheat_message">Battery Share is unavailable because Pixel is too hot. Wait for phone to cool down and try again.</string>
+    <string name="reverse_charging_detail_charging_wirelessly_message">Battery Share is unavailable because phone is charging wirelessly</string>
+    <string name="reverse_charging_detail_footer_title">Your phone’s battery will run out faster when using Battery Share. Battery Share works with compatible ear buds, watches, phones, and more. For better charging, remove your phone’s case.</string>
+    <string name="reverse_charging_detail_footer_title_advanced">"Battery Share works with compatible ear buds, phones, and more.
+
+Your phone’s battery will run out faster when using this feature. Battery Share automatically turns off after a few minutes if another device isn’t detected. For better charging, remove your phone’s case and other items that may interfere, like metal objects."</string>
+    <string name="reverse_charging_detail_power_save_mode_is_on_message">Battery Share is unavailable because Battery Saver is on</string>
+    <string name="reverse_charging_detail_unplug_usb_cable_message">Battery Share is unavailable because USB-C device is plugged in</string>
+    <string name="reverse_charging_instructions_title">"Charge other devices with your Pixel.
+Flip your phone over to try."</string>
+    <string name="reverse_charging_is_off_summary">Off</string>
+    <string name="reverse_charging_is_on_and_charging_summary">Sharing and charging battery</string>
+    <string name="reverse_charging_is_on_and_discharging_summary">Sharing battery</string>
+    <string name="reverse_charging_is_on_summary">On / Charge other devices</string>
+    <string name="reverse_charging_main_switch">Allow Battery Share</string>
+    <string name="reverse_charging_off_low_battery_summary">Off / Phone battery under %1$s</string>
+    <string name="reverse_charging_off_sharing_level_summary">Off / Battery below sharing level</string>
+    <string name="reverse_charging_overheat_summary">Unavailable because Pixel is too hot. Wait for phone to cool down and try again.</string>
+    <string name="reverse_charging_power_save_mode_is_on_message">Unavailable because Battery Saver is on</string>
+    <string name="reverse_charging_sharing_level_message">Unavailable because battery is below sharing level</string>
+    <string name="reverse_charging_switch_summary">Place devices on the back of your Pixel</string>
+    <string name="reverse_charging_switch_title">Charge other devices by placing them on the back of your Pixel</string>
+    <string name="reverse_charging_switch_title_message">Charge other devices</string>
+    <string name="reverse_charging_title">Battery Share</string>
+    <string name="reverse_charging_unplug_usb_cable_message">Unavailable because USB-C device plugged in</string>
+    <string name="reverse_charging_warning_summary">Unavailable because battery is under %1$s</string>
+    <string name="reverse_charging_warning_title">Battery Share is unavailable because battery is under %1$s</string>
+    <string name="rtt_settings_always_visible">Always visible</string>
+    <string name="rtt_settings_no_visible">Not visible</string>
+    <string name="rtt_settings_title">Real-time text (RTT)</string>
+    <string name="rtt_settings_visible_during_call">Visible during call</string>
+    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="search_bar_account_avatar_content_description">Profile picture, double tap to open Google Account</string>
+    <string name="security_advanced_settings">Advanced settings</string>
+    <string name="security_dismiss_dialog_dismiss_button">Dismiss</string>
+    <string name="security_dismiss_dialog_title">Dismiss this warning?</string>
+    <string name="security_settings_face_enroll_error_timeout_dialog_title">Face Unlock setup timed out</string>
+    <string name="security_settings_face_enroll_finish_description">Now you can use your face to unlock your phone or verify it’s you, like when you sign in to apps or approve a purchase</string>
+    <string name="security_settings_face_enroll_next">Next</string>
+    <string name="security_settings_face_enroll_partial_message">To improve performance, you can set up Face Unlock again in Settings</string>
+    <string name="security_settings_face_enroll_partial_start_over">Start over</string>
+    <string name="security_settings_face_enroll_partial_title">Face Unlock setup finished</string>
+    <string name="security_settings_face_enroll_timeout_message">"Try fast setup instead. Keep in mind, your head may need to be more directly in front of your phone when using Face Unlock.
+
+To improve performance, you can set up Face Unlock again in Settings."</string>
+    <string name="security_settings_face_enroll_timeout_title">Can’t continue setup</string>
+    <string name="security_settings_face_enroll_timeout_try_again">Try again</string>
+    <string name="security_settings_face_enroll_timeout_use_fast_setup">Use fast setup</string>
+    <string name="security_settings_face_enroll_too_hot_exit_setup">Exit setup</string>
+    <string name="security_settings_face_enroll_too_hot_message">Face Unlock setup can’t be completed because the phone is too hot. Try again later when the phone cools down.</string>
+    <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
+    <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
+    <string name="setup_fingerprint_enroll_finish_message">Just touch the Nexus Imprint sensor to wake and unlock your phone.</string>
+    <string name="setup_suggestion_summary">Copy data, pay with your phone, and more</string>
+    <string name="setup_suggestion_title">Finish setting up</string>
+    <string name="sound_dashboard_summary">Volume, haptics, Do Not Disturb</string>
+    <string name="sound_settings">Sound &amp; vibration</string>
+    <string name="storage_manager_indicator">Smart Storage: ^1</string>
+    <string name="time_remaining_warning_subtext">About %1$s left based on past usage</string>
+    <string name="time_remaining_warning_text">Battery may run out soon</string>
+    <string name="tips_help_url_gesture"></string>
+    <string name="tips_suggestion_summary">Explore what you can do with your phone</string>
+    <string name="tips_suggestion_title">Get to know your Pixel</string>
+    <string name="traffic_light_face_enrolling_title_accessibility">Hold phone in front of your face</string>
+    <string name="vibrate_for_calls_settings_not_available_summary">Vibrate for calls is unavailable because phone is set to silent</string>
+    <string name="vibration_haptics_settings_not_available_title">Not available</string>
+    <string name="wake_screen_aware_disabled_info_dialog_content"></string>
+    <string name="wake_screen_aware_off_dialog_content"></string>
+    <string name="wake_screen_aware_off_dialog_title"></string>
+    <string name="wake_screen_suggestion_summary"></string>
+    <string name="wake_screen_suggestion_title"></string>
+    <string name="wallpaper_dashboard_summary">Colors, themed icons, app grid</string>
+    <string name="wifi_notify_open_networks_summary">When automatic connection isn’t available</string>
+    <string name="wifitrackerlib_connected_with_wsu_authenticator">Connected with %1$s</string>
+    <string name="wifitrackerlib_help_url_imsi_protection">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=carrier_wifi;end</string>
+    <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tap to connect</string>
+    <string name="wifitrackerlib_wsu_entry_summary_provision_error">Can’t connect. Tap to try again.</string>
+    <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connecting…</string>
+    <item type="string" name="APKTOOL_DUMMY_9a9"></item>
+    <item type="string" name="APKTOOL_DUMMY_9aa"></item>
+    <item type="string" name="APKTOOL_DUMMY_9ab"></item>
+    <style name="AssistGestureTrainingProgressBar">
+        <item name="android:padding">8.0dip</item>
+    </style>
+    <style name="BottomSheetButton" parent="@android:style/Widget.DeviceDefault.Button.Colored">
+        <item name="android:colorBackground">?android:colorAccent</item>
+        <item name="android:textColor">?android:colorBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="BottomSheetButtonBorderless" parent="@android:style/Widget.DeviceDefault.Button.Borderless.Colored">
+        <item name="android:textColor">?android:colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="BottomSheetStyle" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="ContextualSuggestionCardStyle">
+        <item name="android:layout_marginTop">@dimen/suggestion_card_margin_top</item>
+        <item name="android:layout_marginHorizontal">@dimen/suggestion_card_margin_horizontal</item>
+        <item name="cardBackgroundColor">?androidprv:attr/colorAccentPrimary</item>
+        <item name="cardCornerRadius">@dimen/suggestion_card_corner_radius</item>
+        <item name="cardElevation">0.0dip</item>
+        <item name="rippleColor">?android:colorControlHighlight</item>
+    </style>
+    <style name="HatsLibFlatButton" parent="@style/Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/hats_lib_survey_highlight_color</item>
+    </style>
+    <style name="HatsLibPromptTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorControlNormal">@color/hats_lib_survey_control_normal</item>
+        <item name="android:colorControlActivated">#ff4285f4</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="HatsLibQuestionTextStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/hats_lib_survey_question_text_color</item>
+        <item name="android:background">@color/hats_lib_white_100</item>
+        <item name="android:lineSpacingMultiplier">@dimen/hats_lib_survey_header_question_line_spacing_multiplier</item>
+    </style>
+    <style name="HatsLibThankYouTextStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/hats_lib_prompt_text_color</item>
+        <item name="android:fontFamily">roboto-medium</item>
+    </style>
+    <style name="MarlinColors">
+        <item name="color_iphonecircle">#ffcecece</item>
+        <item name="color_iphoneface">#ffededed</item>
+        <item name="color_iphoneoutline">#ffcecece</item>
+        <item name="color_nexusface">#ffededed</item>
+        <item name="color_nexusoutline">#ffcecece</item>
+        <item name="fingerprint_sensor_location_color1">#ffc6c6c6</item>
+        <item name="fingerprint_sensor_location_color2">#ffdddddd</item>
+        <item name="fingerprint_sensor_location_color3">#ffd6d6d6</item>
+        <item name="fingerprint_sensor_location_color4">#ffafafaf</item>
+        <item name="fingerprint_sensor_location_color5">#ffafafaf</item>
+        <item name="fingerprint_sensor_location_color6">#ff9b9b9b</item>
+        <item name="fingerprint_sensor_location_color7">#ffcecece</item>
+    </style>
+    <style name="MarlinColors.Blue" parent="@style/MarlinColors">
+    </style>
+    <style name="MarlinColors.Graphite" parent="@style/MarlinColors">
+    </style>
+    <style name="MarlinColors.Silver" parent="@style/MarlinColors">
+    </style>
+    <style name="SecurityShowMoreWarningsCard" parent="@style/ContextualCardStyle">
+        <item name="strokeWidth">0.0dip</item>
+    </style>
+    <style name="SuggestionCardIconStyle">
+        <item name="android:tint">?android:textColorPrimary</item>
+    </style>
+    <style name="SuggestionCardSummaryColor">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="SuggestionCardTitleColor">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.FaceErrorText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">?android:colorError</item>
+    </style>
+    <style name="TextAppearance.SecurityShowMoreTitle" parent="@style/TextAppearance.SecurityStatusSummary">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.SecurityStatusSummary" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+    <style name="TextAppearance.SecurityStatusTitle" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+    <style name="TextAppearance.SuggestionCardSummary" parent="@style/SuggestionCardSummaryColor">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
+    </style>
+    <style name="TextAppearance.SuggestionCardTitle" parent="@style/SuggestionCardTitleColor">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+</resources>

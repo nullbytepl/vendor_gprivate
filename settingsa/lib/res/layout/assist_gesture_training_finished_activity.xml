@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_assist_gesture_checked" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/assist_gesture_training_finished_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
+        <TextView android:id="@id/sud_layout_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/assist_gesture_training_finished_text" style="@style/SudDescription.Glif" />
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="4.0" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@id/assist_gesture_training_illustration" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/assist_gesture_illustration" />
+            <ImageView android:id="@id/assist_gesture_training_check" android:layout_width="@dimen/assist_illustration_layout_width" android:layout_height="@dimen/assist_illustration_layout_height" android:src="@drawable/assist_gesture_check" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/assist_error_distance_top">
+            <TextView android:textColor="?android:colorError" android:gravity="center_horizontal" android:id="@id/error_message" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/assist_gesture_training_enrolling_error_squeeze_release_quickly" android:accessibilityLiveRegion="polite" />
+        </LinearLayout>
+        <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include layout="@layout/assist_gesture_training_seekbar" />
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <attr name="icon"></attr>
+    <attr name="title"></attr>
+    <color name="red">#ffcc0000</color>
+    <dimen name="keyguard_indication_margin_bottom">32.0dip</dimen>
+    <dimen name="navigation_icon_size">32.0dip</dimen>
+    <dimen name="status_bar_header_height_keyguard">40.0dip</dimen>
+    <dimen name="top_padding">0.0dip</dimen>
+    <item type="id" name="ambient_indication"></item>
+    <item type="id" name="ambient_indication_container"></item>
+    <item type="id" name="clock"></item>
+    <item type="id" name="description"></item>
+    <item type="id" name="dnd_icon"></item>
+    <item type="id" name="icon"></item>
+    <item type="id" name="invocation_lights"></item>
+    <item type="id" name="left_handle"></item>
+    <item type="id" name="prompt"></item>
+    <item type="id" name="red"></item>
+    <item type="id" name="right_handle"></item>
+    <item type="id" name="scrim"></item>
+    <item type="id" name="title"></item>
+    <item type="id" name="title_text"></item>
+    <item type="id" name="top_padding"></item>
+    <string name="clock">Clock</string>
+</resources>

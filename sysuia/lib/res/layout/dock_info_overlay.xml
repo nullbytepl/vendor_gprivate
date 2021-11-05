@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/dreamliner_gear" android:visibility="gone" android:layout_width="@dimen/settings_gear_touch_target_size" android:layout_height="@dimen/settings_gear_touch_target_size" android:layout_marginTop="@dimen/status_bar_header_height_keyguard" android:layout_marginRight="@dimen/settings_gear_margin" android:src="@drawable/ic_settings_gear" android:scaleType="center" android:contentDescription="@string/accessibility_settings_gear" android:accessibilityLiveRegion="polite" android:tooltipText="@string/accessibility_settings_gear" />
+</FrameLayout>

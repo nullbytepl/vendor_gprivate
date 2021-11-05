@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/hats_lib_survey_question_text" android:paddingLeft="@dimen/hats_lib_survey_horizontal_padding" android:paddingTop="@dimen/hats_lib_survey_header_top_padding" android:paddingRight="@dimen/hats_lib_survey_question_text_right_padding" android:paddingBottom="@dimen/hats_lib_survey_header_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/HatsLibQuestionTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

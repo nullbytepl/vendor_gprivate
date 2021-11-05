@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <attr name="animation"></attr>
+    <attr name="layout"></attr>
+    <attr name="progress"></attr>
+    <color name="accessibility_feature_background">#ff5f6368</color>
+    <color name="accessibility_magnification_background">#fff50d60</color>
+    <color name="battery_info_error_color_black">@color/primary_text_default_material_light</color>
+    <color name="battery_info_error_color_red">#fffce8e6</color>
+    <color name="bt_color_bg_1">#fffad2cf</color>
+    <color name="bt_color_bg_2">#ffceead6</color>
+    <color name="bt_color_bg_3">#fffeefc3</color>
+    <color name="bt_color_bg_4">#fffedfc8</color>
+    <color name="bt_color_bg_5">#fffdcfe8</color>
+    <color name="bt_color_bg_6">#ffe9d2fd</color>
+    <color name="bt_color_bg_7">#ffcbf0f8</color>
+    <color name="bt_color_icon_1">#b4a50e0e</color>
+    <color name="bt_color_icon_2">#b40d652d</color>
+    <color name="bt_color_icon_3">#b4e37400</color>
+    <color name="bt_color_icon_4">#b4b06000</color>
+    <color name="bt_color_icon_5">#b49c166b</color>
+    <color name="bt_color_icon_6">#b4681da8</color>
+    <color name="bt_color_icon_7">#b4007b83</color>
+    <color name="face_enroll_icon_color">#ff42a5f5</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="sud_color_accent_light">#ff3367d6</color>
+    <dimen name="accessibility_icon_foreground_size">18.0dip</dimen>
+    <dimen name="accessibility_icon_size">32.0dip</dimen>
+    <dimen name="contextual_card_icon_size">24.0dip</dimen>
+    <item type="id" name="actions"></item>
+    <item type="id" name="animation"></item>
+    <item type="id" name="apps"></item>
+    <item type="id" name="battery_icon"></item>
+    <item type="id" name="card_container"></item>
+    <item type="id" name="circle_view"></item>
+    <item type="id" name="container"></item>
+    <item type="id" name="content_frame"></item>
+    <item type="id" name="entity_header"></item>
+    <item type="id" name="entity_header_content"></item>
+    <item type="id" name="entity_header_icon"></item>
+    <item type="id" name="entity_header_second_summary"></item>
+    <item type="id" name="entity_header_summary"></item>
+    <item type="id" name="entity_header_title"></item>
+    <item type="id" name="error_message"></item>
+    <item type="id" name="error_text"></item>
+    <item type="id" name="header_subtitle"></item>
+    <item type="id" name="icon_frame"></item>
+    <item type="id" name="indicator_left"></item>
+    <item type="id" name="indicator_right"></item>
+    <item type="id" name="install_type"></item>
+    <item type="id" name="label"></item>
+    <item type="id" name="launch"></item>
+    <item type="id" name="link_text"></item>
+    <item type="id" name="progress"></item>
+    <item type="id" name="setup_wizard_layout"></item>
+    <item type="id" name="sud_layout_description"></item>
+    <item type="id" name="suggestion_card"></item>
+    <item type="id" name="summary_text"></item>
+    <item type="id" name="texture_view"></item>
+    <string name="additional_system_update"></string>
+    <string name="additional_system_update_menu"></string>
+    <string name="ambient_display_wake_screen_title">Wake up display</string>
+    <string name="assist_gesture_title">Active Edge</string>
+    <string name="keywords_ambient_display_screen">Ambient display, Lock screen display</string>
+    <string name="keywords_auto_rotate">camera, smart, auto rotate, auto-rotate, rotate, flip, rotation, portrait, landscape, orientation, vertical, horizontal</string>
+    <string name="keywords_color_mode">vibrant, RGB, sRGB, color, natural, standard</string>
+    <string name="keywords_display">screen, touchscreen</string>
+    <string name="keywords_display_brightness_level">dim screen, touchscreen, battery, bright</string>
+    <string name="keywords_system_update_settings">upgrade, android</string>
+    <string name="tap_to_wake">Tap to wake</string>
+    <string name="tap_to_wake_summary">Double-tap anywhere on the screen to wake device</string>
+    <string name="keywords_notification_vibration">haptics, vibrate, sensitivity</string>
+    <string name="keywords_ring_vibration">haptics, vibrate, phone, call, sensitivity, ring</string>
+    <string name="keywords_touch_vibration">haptics, vibrate, screen, sensitivity</string>
+    <string name="accessibility_vibration_settings_title">Vibration &amp; haptics</string>
+    <string name="battery_missing_link_a11y_message">Tap to learn more about this error</string>
+    <string name="battery_missing_link_message">Learn more</string>
+    <string name="battery_missing_message">Problem reading the battery meter.</string>
+    <string name="game_settings_title">Game settings</string>
+    <string name="keywords_app_pinning">screen pinning</string>
+    <string name="keywords_assist_gesture_launch">gesture, edge, side, active edge, squeeze, grip, assist, assistant, squeeze, ok google, google assistant</string>
+    <string name="keywords_battery">power usage, charge</string>
+    <string name="keywords_battery_adaptive_preferences">adaptive preferences, adaptive battery</string>
+    <string name="keywords_biometric_settings">face, fingerprint, add fingerprint</string>
+    <string name="keywords_dark_ui_mode">theme, light, dark, mode, light sensitivity, photophobia, make darker, darken, dark mode, migraine</string>
+    <string name="keywords_display_night_display">dim screen, night, tint, night shift, brightness, screen color, colour, color</string>
+    <string name="keywords_display_size">screen size, large screen</string>
+    <string name="keywords_face_settings">face</string>
+    <string name="keywords_fingerprint_settings">fingerprint, add fingerprint</string>
+    <string name="keywords_font_size">text size, large print, large font, large text, low vision, make text bigger, font enlarger, font enlargement</string>
+    <string name="keywords_hearing_aids">hard of hearing, hearing loss</string>
+    <string name="keywords_live_caption">Captions, closed captions, CC, Live Transcribe, hard of hearing, hearing loss, CART, speech to text, subtitle</string>
+    <string name="keywords_lockscreen">slide to unlock, password, pattern, PIN</string>
+    <string name="keywords_magnification">Window Magnifier, Zoom, Magnification, Low vision, Enlarge, make bigger</string>
+    <string name="keywords_media_controls">media</string>
+    <string name="keywords_reduce_bright_colors">light sensitivity, photophobia, dark theme, migraine, headache, reading mode, night mode, reduce brightness, white point</string>
+    <string name="keywords_rtt">hard of hearing, hearing loss, captions, Teletype, tty</string>
+    <string name="keywords_sounds">speaker beep, speaker, volume, mute, silence, audio, music</string>
+    <string name="keywords_sounds_and_notifications_interruptions">dont don’t disturb, interrupt, interruption, break</string>
+    <string name="keywords_unification">work profile, managed profile, unify, unification, work, profile</string>
+    <string name="live_caption_summary">Automatically caption media</string>
+    <string name="live_caption_title">Live Caption</string>
+    <style name="ContextualCardStyle">
+        <item name="android:layout_marginBottom">@dimen/contextual_card_vertical_margin</item>
+        <item name="android:layout_marginStart">@dimen/contextual_card_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/contextual_card_side_margin</item>
+        <item name="cardBackgroundColor">?androidprv:attr/colorSurface</item>
+        <item name="cardCornerRadius">@dimen/contextual_card_corner_radius</item>
+        <item name="cardElevation">0.0dip</item>
+        <item name="rippleColor">?android:colorControlHighlight</item>
+    </style>
+    <style name="EntityHeader">
+        <item name="android:background">?android:colorPrimaryDark</item>
+        <item name="android:paddingTop">24.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="FaceLayoutTheme">
+        <item name="android:icon">@drawable/ic_lock</item>
+    </style>
+    <style name="SudContentFrame">
+        <item name="android:paddingLeft">?sudMarginStart</item>
+        <item name="android:paddingTop">?sudContentFramePaddingTop</item>
+        <item name="android:paddingRight">?sudMarginEnd</item>
+        <item name="android:paddingBottom">?sudContentFramePaddingBottom</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <style name="SudContentIllustration">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/gesture_silence_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.widget.VideoPreference android:key="gesture_silence_video" app:animation="@raw/gesture_silence" app:preview="@drawable/gesture_silence" />
+    <SwitchPreference android:title="@string/gesture_silence_title" android:key="gesture_silence" android:summary="@string/gesture_silence_summary" app:controller="com.google.android.settings.aware.SilenceGesturePreferenceController" app:allowDividerAbove="true" app:keywords="@string/keywords_gesture_silence" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/gesture_silence_footer" android:selectable="false" android:key="silence_gesture_footer" app:controller="com.google.android.settings.aware.SilenceGestureFooterPreferenceController" app:searchable="false" />
+</PreferenceScreen>

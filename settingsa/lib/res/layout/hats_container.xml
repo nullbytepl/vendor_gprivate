@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/hats_lib_overall_container" android:background="@color/hats_lib_white_100" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/hats_lib_survey_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0">
+        <com.google.android.libraries.hats20.view.SurveyViewPager android:id="@id/hats_lib_survey_viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    </LinearLayout>
+    <include layout="@layout/hats_thank_you" />
+    <include layout="@layout/hats_close_button" />
+</FrameLayout>

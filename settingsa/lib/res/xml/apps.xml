@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/apps_dashboard_title" android:key="apps_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/all_apps" android:key="all_app_infos" android:summary="@string/summary_placeholder" android:order="-999" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:keywords="@string/keywords_applications_settings" />
+    <PreferenceCategory android:title="@string/recent_app_category_title" android:key="recent_apps_category" android:order="-998" settings:searchable="false">
+        <Preference android:icon="@drawable/ic_chevron_right_24dp" android:title="@string/default_see_all_apps_title" android:key="see_all_apps" android:order="5" android:fragment="com.android.settings.applications.manageapplications.ManageApplications" settings:searchable="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:visibility="gone" android:title="@string/category_name_general" android:key="general_category" android:order="-997" settings:searchable="false" />
+    <Preference android:title="@string/app_default_dashboard_title" android:key="default_apps" android:order="-996" settings:controller="com.android.settings.applications.DefaultAppsPreferenceController">
+        <intent android:action="android.settings.MANAGE_DEFAULT_APPS_SETTINGS" />
+    </Preference>
+    <Preference android:title="@string/game_settings_title" android:key="game_settings" android:summary="@string/game_settings_summary" android:order="-995" settings:controller="com.android.settings.applications.GameSettingsPreferenceController" />
+    <PreferenceCategory android:key="dashboard_tile_placeholder" android:order="10" />
+    <Preference android:title="@string/unused_apps" android:key="hibernated_apps" android:summary="@string/summary_placeholder" android:order="15" settings:controller="com.android.settings.applications.HibernatedAppsPreferenceController" settings:keywords="app_hibernation_key">
+        <intent android:action="android.intent.action.MANAGE_UNUSED_APPS" />
+    </Preference>
+    <Preference android:title="@string/special_access" android:key="special_access" android:order="20" android:fragment="com.android.settings.applications.specialaccess.SpecialAccessSettings" settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController" />
+</PreferenceScreen>

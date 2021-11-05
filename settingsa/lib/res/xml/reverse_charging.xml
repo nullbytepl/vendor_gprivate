@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/reverse_charging_title" settings:keywords="@string/keywords_battery_share"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.widget.MainSwitchPreference android:title="@string/reverse_charging_main_switch" android:key="reverse_charging_switch" settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingSwitchPreferenceController" settings:allowDividerBelow="false" />
+    <com.android.settingslib.widget.TopIntroPreference android:title="@string/reverse_charging_switch_title" android:key="reverse_charging_summary" settings:allowDividerBelow="true" />
+    <com.android.settingslib.widget.IllustrationPreference android:selectable="false" android:key="reverse_charging_illustration" settings:lottie_rawRes="@raw/lottie_reverse_charging" />
+    <com.google.android.settings.fuelgauge.reversecharging.ReverseChargingSeekBarPreference android:icon="@drawable/ic_reverse_charging" android:title="@string/keywords_reverse_charging_stop_threshold" android:key="reverse_charging_seek_bar" settings:controller="com.google.android.settings.fuelgauge.reversecharging.ReverseChargingSeekBarController" settings:allowDividerAbove="true" />
+    <com.android.settingslib.widget.FooterPreference android:title="@string/reverse_charging_detail_footer_title_advanced" android:selectable="false" android:key="reverse_charging_detail_footer" settings:searchable="false" />
+</PreferenceScreen>

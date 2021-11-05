@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_pressed="false">
+        <layer-list
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hats_lib_survey_control_normal" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/hats_lib_open_text_inactive_bottom_border_height">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hats_lib_white_100" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hats_lib_open_text_underline" />
+                </shape>
+            </item>
+            <item android:bottom="@dimen/hats_lib_open_text_active_bottom_border_height">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/hats_lib_white_100" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

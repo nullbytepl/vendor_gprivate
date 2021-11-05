@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.hats20.view.EditTextWithImeDone android:textSize="16.0sp" android:textColor="#ff323232" android:textColorHint="#ff757575" android:gravity="start|bottom|center" android:id="@id/hats_lib_survey_open_text" android:background="@drawable/hats_open_text_border" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/hats_lib_survey_horizontal_padding" android:layout_marginRight="@dimen/hats_lib_survey_horizontal_padding" android:minHeight="@dimen/hats_lib_open_text_input_min_height" android:minLines="1" android:lineSpacingMultiplier="1.25" android:inputType="textAutoCorrect|textCapSentences" android:fontFamily="roboto-regular"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff757575" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hats_lib_survey_horizontal_padding" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/hats_lib_survey_horizontal_padding" android:text="@string/hats_lib_open_text_no_pii" android:fontFamily="roboto-regular" />
+</merge>

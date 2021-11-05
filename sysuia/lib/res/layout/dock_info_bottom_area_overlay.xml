@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:id="@id/dock_promo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/keyguard_indication_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Keyguard.BottomArea" android:textColor="@color/dock_photo_text" android:gravity="center" android:layout_gravity="center" android:id="@id/photo_promo_text" android:paddingLeft="@dimen/dock_promo_padding" android:paddingRight="@dimen/dock_promo_padding" android:layout_width="fill_parent" android:layout_height="@dimen/swipe_arrow_height" android:text="@string/dock_promo_text" android:accessibilityLiveRegion="polite" />
+    <ImageView android:layout_gravity="right" android:id="@id/dreamliner_arrow" android:layout_width="@dimen/swipe_arrow_width" android:layout_height="@dimen/swipe_arrow_height" android:src="@drawable/ic_swipe_arrow" android:scaleType="center" android:tint="@color/dock_photo_text" />
+</FrameLayout>
