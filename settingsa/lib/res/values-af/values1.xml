@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <string-array name="sim_color_light">
+        <item>\@color/SIM_color_cyan</item>
+        <item>\@color/SIM_color_blue800</item>
+        <item>\@color/SIM_color_green800</item>
+        <item>\@color/SIM_color_purple800</item>
+        <item>\@color/SIM_color_pink800</item>
+        <item>\@color/SIM_color_orange</item>
+    </string-array>
+</resources>

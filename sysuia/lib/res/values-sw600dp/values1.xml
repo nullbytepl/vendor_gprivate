@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <dimen name="internet_dialog_list_max_width">624.0dip</dimen>
+</resources>

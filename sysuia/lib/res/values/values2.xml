@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <attr name="content"></attr>
+    <attr name="divider"></attr>
     <attr name="icon"></attr>
     <attr name="title"></attr>
+    <color name="global_actions_lite_background">#ff191c18</color>
     <color name="red">#ffcc0000</color>
+    <color name="settingslib_state_on_color">@android:color/system_accent1_100</color>
+    <color name="settingslib_thumb_off_color">@android:color/system_neutral2_300</color>
+    <color name="settingslib_track_off_color">@color/settingslib_switch_track_off</color>
+    <color name="settingslib_track_on_color">@android:color/system_accent1_600</color>
+    <dimen name="global_actions_corner_radius">28.0dip</dimen>
+    <dimen name="global_actions_info_margin">32.0dip</dimen>
     <dimen name="keyguard_indication_margin_bottom">32.0dip</dimen>
+    <dimen name="match_parent">-1.0px</dimen>
     <dimen name="navigation_icon_size">32.0dip</dimen>
+    <dimen name="navigation_key_padding">0.0dip</dimen>
+    <dimen name="navigation_key_width">70.0dip</dimen>
+    <dimen name="settingslib_min_switch_width">52.0dip</dimen>
+    <dimen name="settingslib_switch_bar_radius">28.0dip</dimen>
     <dimen name="status_bar_header_height_keyguard">40.0dip</dimen>
     <dimen name="top_padding">0.0dip</dimen>
     <item type="id" name="ambient_indication"></item>
     <item type="id" name="ambient_indication_container"></item>
     <item type="id" name="clock"></item>
+    <item type="id" name="content"></item>
     <item type="id" name="description"></item>
+    <item type="id" name="divider"></item>
     <item type="id" name="dnd_icon"></item>
     <item type="id" name="icon"></item>
     <item type="id" name="invocation_lights"></item>
@@ -19,8 +35,18 @@
     <item type="id" name="red"></item>
     <item type="id" name="right_handle"></item>
     <item type="id" name="scrim"></item>
+    <item type="id" name="scroll_layout"></item>
+    <item type="id" name="scroll_view"></item>
     <item type="id" name="title"></item>
     <item type="id" name="title_text"></item>
     <item type="id" name="top_padding"></item>
+    <string name="accessibility_home">Home</string>
     <string name="clock">Clock</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="inline_done_button">Done</string>
+    <style name="TrimmedHorizontalProgressBar" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:maxHeight">4.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_material_trimmed</item>
+        <item name="android:minHeight">4.0dip</item>
+    </style>
 </resources>

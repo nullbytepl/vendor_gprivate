@@ -16,6 +16,14 @@
     </string-array>
     <array name="face_enroll_primary_buckets">
     </array>
+    <array name="sim_color_light">
+        <item>@color/SIM_color_cyan</item>
+        <item>@color/SIM_color_blue800</item>
+        <item>@color/SIM_color_green800</item>
+        <item>@color/SIM_color_purple800</item>
+        <item>@color/SIM_color_pink800</item>
+        <item>@color/SIM_color_orange</item>
+    </array>
     <array name="wlc_icon_bg_colors">
         <item>@color/bt_color_bg_1</item>
         <item>@color/bt_color_bg_2</item>
@@ -76,6 +84,15 @@
     <bool name="hats_lib_survey_is_full_bleed">true</bool>
     <bool name="hats_lib_survey_should_display_close_button">true</bool>
     <bool name="hats_lib_survey_should_display_scrim">true</bool>
+    <color name="SIM_color_blue800">#ff185abc</color>
+    <color name="SIM_color_cyan">#ff006d74</color>
+    <color name="SIM_color_green800">#ff137333</color>
+    <color name="SIM_color_orange">#ff995400</color>
+    <color name="SIM_color_pink800">#ffb80672</color>
+    <color name="SIM_color_purple800">#ff7627bb</color>
+    <color name="SIM_dark_mode_color_cyan">#ff4dd0e1</color>
+    <color name="SIM_dark_mode_color_green">#ff81c995</color>
+    <color name="SIM_dark_mode_color_orange">#fffcad70</color>
     <color name="active_edge_indicator">#ff4182ef</color>
     <color name="blue_500">#ff4285f4</color>
     <color name="browser_actions_bg_grey">#fff5f5f5</color>
@@ -217,6 +234,8 @@
     <item type="dimen" name="hats_lib_survey_answer_line_spacing_multiplier">1.1</item>
     <item type="dimen" name="hats_lib_survey_header_question_line_spacing_multiplier">1.1</item>
     <item type="id" name="agree_to_participate"></item>
+    <item type="id" name="arrow_next"></item>
+    <item type="id" name="arrow_previous"></item>
     <item type="id" name="assist_gesture_illustration_animation"></item>
     <item type="id" name="assist_gesture_sensitivity_seekbar"></item>
     <item type="id" name="assist_gesture_training_check"></item>
@@ -265,9 +284,13 @@
     <item type="id" name="hats_lib_survey_viewpager"></item>
     <item type="id" name="hats_lib_thank_you"></item>
     <item type="id" name="hats_survey_question_scroll_view"></item>
+    <item type="id" name="image1"></item>
+    <item type="id" name="image2"></item>
+    <item type="id" name="image3"></item>
     <item type="id" name="indicator_view"></item>
     <item type="id" name="learn_more_btn"></item>
     <item type="id" name="nav_bar"></item>
+    <item type="id" name="notification_list_wrapper"></item>
     <item type="id" name="ok_btn"></item>
     <item type="id" name="percentage_number"></item>
     <item type="id" name="play_view"></item>
@@ -280,6 +303,8 @@
     <item type="id" name="toolbar_title"></item>
     <item type="id" name="toolbar_wrapper"></item>
     <item type="id" name="video_view"></item>
+    <item type="id" name="viewGroup"></item>
+    <item type="id" name="viewpager"></item>
     <integer name="gesture_assist_sensitivity_default">4</integer>
     <integer name="gesture_assist_sensitivity_max">8</integer>
     <integer name="haptics_level_max">2</integer>
@@ -412,8 +437,13 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="backup_suggestion_what_is_needed_title">"What you'll need"</string>
     <string name="battery_manager_summary">Extend battery life and optimize charging</string>
     <string name="battery_suggestion_summary">Turn on Adaptive Battery</string>
+    <string name="battery_tip_limited_temporarily_dialog_msg">"In certain conditions, like high temperatures and long charging periods, charging may be limited to %1$s to help preserve battery health.
+
+When those conditions end, your phone will automatically charge normally."</string>
+    <string name="battery_tip_limited_temporarily_dialog_resume_charge">Resume charging</string>
     <string name="battery_tip_smart_battery_summary">Turn on Adaptive Battery</string>
     <string name="bluetooth_untethered_unpair_dialog_body">%1$s will no longer be paired with any device linked to this Google Account</string>
+    <string name="colors_viewpager_content_description">Color preview</string>
     <string name="columbus_gesture_detected">Quick Tap detected!</string>
     <string name="columbus_gesture_enrollment_complete">Done</string>
     <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
@@ -494,6 +524,7 @@ Once it resets, go through the setup process and choose to bring your data from 
     <string name="dialog_aware_settings_title"></string>
     <string name="dock_summary_charging_phone">Charging phone</string>
     <string name="double_twist_for_camera_mode_summary">To switch in and out of selfie mode in Google Camera, double-twist when you’re in the app.</string>
+    <string name="downloaded_sims_category_title">DOWNLOADED SIMS</string>
     <string name="downloads_backup_text">Downloaded files will be backed up to Google Drive</string>
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
     <string name="emergency_gesture_settings_package">com.google.android.apps.safetyhub</string>
@@ -598,6 +629,7 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="keywords_gesture_tap"></string>
     <string name="keywords_global_actions_panel">cards, passes</string>
     <string name="keywords_live_transcribe">Captions, closed captions, CC, Live Caption, hard of hearing, hearing loss, CART, speech to text, subtitle</string>
+    <string name="keywords_nr_advanced_calling">vo5g, vonr, advanced calling, 5g calling</string>
     <string name="keywords_reverse_charging_stop_threshold">Stop sharing battery when phone reaches:</string>
     <string name="keywords_select_to_speak">Hear text, read aloud, speak screen, screen reader</string>
     <string name="keywords_sound_amplifier">PSAP, amplify, sound amplification, hard of hearing, hearing loss, amplification</string>
@@ -611,8 +643,16 @@ Backup data will not count towards your Drive storage quota. Large files, or fil
     <string name="lock_settings_picker_fingerprint_message">Choose a backup screen lock to use with Nexus Imprint</string>
     <string name="me_card_title">My Pixel</string>
     <string name="my_device_info_account_preference_title">Google Account</string>
+    <string name="next_page_content_description">Next</string>
+    <string name="nr_advanced_calling_summary">Use 5G for voice calls</string>
+    <string name="nr_advanced_calling_title">Vo5G</string>
     <string name="oem_preferred_feedback_reporter">com.google.android.gms</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_high_label">Long</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_low_label">Short</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_summary">Adjust sensitivity by choosing how long to press &amp; hold the power button</string>
+    <string name="power_menu_long_press_for_assist_sensitivity_title">Press &amp; hold duration</string>
     <string name="power_usage_summary">What has been using the battery</string>
+    <string name="previous_page_content_description">Previous</string>
     <string name="reverse_charging_charging_wirelessly_message">Unavailable because phone charging wirelessly</string>
     <string name="reverse_charging_detail_charging_overheat_message">Battery Share is unavailable because Pixel is too hot. Wait for phone to cool down and try again.</string>
     <string name="reverse_charging_detail_charging_wirelessly_message">Battery Share is unavailable because phone is charging wirelessly</string>
@@ -666,6 +706,7 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="security_settings_face_enroll_too_hot_message">Face Unlock setup can’t be completed because the phone is too hot. Try again later when the phone cools down.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
     <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
+    <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for work</string>
     <string name="setup_fingerprint_enroll_finish_message">Just touch the Nexus Imprint sensor to wake and unlock your phone.</string>
     <string name="setup_suggestion_summary">Copy data, pay with your phone, and more</string>
     <string name="setup_suggestion_title">Finish setting up</string>
@@ -687,14 +728,15 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="wake_screen_suggestion_title"></string>
     <string name="wallpaper_dashboard_summary">Colors, themed icons, app grid</string>
     <string name="wifi_notify_open_networks_summary">When automatic connection isn’t available</string>
+    <string name="wifi_scan_notify_message">To improve device experience, apps and services can still scan for Wi‑Fi networks at any time, even when Wi‑Fi is off. This can be used, for example, to improve location-based features and services. You can change this in Wi‑Fi scanning settings. </string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Connected with %1$s</string>
     <string name="wifitrackerlib_help_url_imsi_protection">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=carrier_wifi;end</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tap to connect</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Can’t connect. Tap to try again.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connecting…</string>
-    <item type="string" name="APKTOOL_DUMMY_9a9"></item>
-    <item type="string" name="APKTOOL_DUMMY_9aa"></item>
     <item type="string" name="APKTOOL_DUMMY_9ab"></item>
+    <item type="string" name="APKTOOL_DUMMY_9ac"></item>
+    <item type="string" name="APKTOOL_DUMMY_9ad"></item>
     <style name="AssistGestureTrainingProgressBar">
         <item name="android:padding">8.0dip</item>
     </style>

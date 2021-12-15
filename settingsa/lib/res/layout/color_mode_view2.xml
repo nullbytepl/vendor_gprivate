@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:foregroundGravity="center_horizontal">
+        <ImageView android:id="@id/image2" android:layout_width="fill_parent" android:layout_height="@dimen/color_mode_preview_height" android:src="@drawable/color_mode_preview2" android:scaleType="centerCrop" android:cropToPadding="true" android:contentDescription="@null" />
+    </FrameLayout>
+</LinearLayout>
