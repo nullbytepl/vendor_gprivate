@@ -5,7 +5,7 @@
     <attr name="progress"></attr>
     <color name="accessibility_feature_background">#ff5f6368</color>
     <color name="accessibility_magnification_background">#fff50d60</color>
-    <color name="battery_info_error_color_black">@color/primary_text_default_material_light</color>
+    <color name="battery_info_error_color_black">@*android:color/primary_text_disable_only_holo_light</color>
     <color name="battery_info_error_color_red">#fffce8e6</color>
     <color name="bt_color_bg_1">#fffad2cf</color>
     <color name="bt_color_bg_2">#ffceead6</color>
@@ -22,11 +22,11 @@
     <color name="bt_color_icon_6">#b4681da8</color>
     <color name="bt_color_icon_7">#b4007b83</color>
     <color name="face_enroll_icon_color">#ff42a5f5</color>
-    <color name="primary_text_default_material_light">#de000000</color>
     <color name="sud_color_accent_light">#ff3367d6</color>
     <dimen name="accessibility_icon_foreground_size">18.0dip</dimen>
     <dimen name="accessibility_icon_size">32.0dip</dimen>
     <dimen name="contextual_card_icon_size">24.0dip</dimen>
+    <dimen name="suggestion_card_corner_radius">28.0dip</dimen>
     <item type="id" name="actions"></item>
     <item type="id" name="animation"></item>
     <item type="id" name="apps"></item>
@@ -56,6 +56,7 @@
     <item type="id" name="sud_layout_description"></item>
     <item type="id" name="suggestion_card"></item>
     <item type="id" name="summary_text"></item>
+    <item type="id" name="text_container"></item>
     <item type="id" name="texture_view"></item>
     <string name="additional_system_update"></string>
     <string name="additional_system_update_menu"></string>
@@ -100,6 +101,7 @@
     <string name="keywords_unification">work profile, managed profile, unify, unification, work, profile</string>
     <string name="live_caption_summary">Automatically caption media</string>
     <string name="live_caption_title">Live Caption</string>
+    <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for work</string>
     <style name="ContextualCardStyle">
         <item name="android:layout_marginBottom">@dimen/contextual_card_vertical_margin</item>
         <item name="android:layout_marginStart">@dimen/contextual_card_side_margin</item>

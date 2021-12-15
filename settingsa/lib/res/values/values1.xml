@@ -207,7 +207,6 @@
     <dimen name="hats_lib_thank_you_height">84.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_image_size">240.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_min_height">350.0dip</dimen>
-    <dimen name="suggestion_card_corner_radius">28.0dip</dimen>
     <dimen name="suggestion_card_icon_margin_start">20.0dip</dimen>
     <dimen name="suggestion_card_margin_horizontal">16.0dip</dimen>
     <dimen name="suggestion_card_margin_top">16.0dip</dimen>
@@ -276,7 +275,6 @@
     <item type="id" name="status_image"></item>
     <item type="id" name="status_summary"></item>
     <item type="id" name="status_title"></item>
-    <item type="id" name="text_container"></item>
     <item type="id" name="toolbar_title"></item>
     <item type="id" name="toolbar_wrapper"></item>
     <item type="id" name="video_view"></item>
@@ -692,9 +690,9 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tap to connect</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Can’t connect. Tap to try again.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connecting…</string>
-    <item type="string" name="APKTOOL_DUMMY_9a9"></item>
-    <item type="string" name="APKTOOL_DUMMY_9aa"></item>
     <item type="string" name="APKTOOL_DUMMY_9ab"></item>
+    <item type="string" name="APKTOOL_DUMMY_9ac"></item>
+    <item type="string" name="APKTOOL_DUMMY_9ad"></item>
     <style name="AssistGestureTrainingProgressBar">
         <item name="android:padding">8.0dip</item>
     </style>

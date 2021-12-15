@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <string-array name="columbus_sumatra_cert_allow_list">
+        <item>⼜꫼ꇭバ듣衣뺠焟꓏禸≑骂姙婘</item>
+        <item>괥仙胛ύꚾ샍洞恧㗆꯷咝ㅾ뿣鄖數</item>
+        <item>᥵닱煷벉ꗟ鹤ꛊꔽ쇑햛ᴔ翡젪切</item>
+        <item>္㣮䔷軧鋶呐侸㑯욳䛐믄䅟쌹ﳼ軁</item>
+    </string-array>
+    <string-array name="columbus_sumatra_package_allow_list">
+        <item>com.snapchat.android</item>
+        <item>com.snapchat.android.alpha</item>
+        <item>com.snapchat.android.perf</item>
+        <item>com.snapchat.android.master</item>
+        <item>com.snapchat.android.dev</item>
+        <item>com.snapchat.android.catalina</item>
+        <item>com.google.android.GoogleCamera</item>
+        <item>com.google.columbustest</item>
+    </string-array>
     <array name="config_nfc_conflict_with_usb_audio_productid">
     </array>
     <array name="config_nfc_conflict_with_usb_audio_vendorid">
@@ -42,14 +58,11 @@
     <color name="chip_hint_foreground_color2">#ff3c4043</color>
     <color name="default_gleam_background_color">#ff000000</color>
     <color name="default_gleam_highlight_color">#ffffffff</color>
+    <color name="default_invocation_lights_color">#ffffffff</color>
     <color name="default_selection_highlight_color">#ff7baaf7</color>
     <color name="default_selection_image_highlight_color">#ff7baaf7</color>
     <color name="default_selection_stroke_color">#ff4285f4</color>
     <color name="dock_photo_text">#ffffffff</color>
-    <color name="edge_light_blue">#ff4185f4</color>
-    <color name="edge_light_green">#ff3aa853</color>
-    <color name="edge_light_red">#ffea4234</color>
-    <color name="edge_light_yellow">#fffbbc06</color>
     <color name="game_dashboard_screen_record_countdown">#ffd93025</color>
     <color name="game_mode_battery_background">#fffdd663</color>
     <color name="game_mode_battery_tint">#ff775901</color>
@@ -94,6 +107,23 @@
     <dimen name="chip_tap_target_vertical_margin">5.0dip</dimen>
     <dimen name="chip_text_size">14.0sp</dimen>
     <dimen name="chip_text_start_padding2">8.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_bottom_padding">18.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_button_background_radius">18.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_button_background_vertical_insets">6.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_button_height">48.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_button_to_button_space">8.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_content_line_height">20.0sp</dimen>
+    <dimen name="columbus_target_request_dialog_content_text_size">14.0sp</dimen>
+    <dimen name="columbus_target_request_dialog_content_to_button_space">32.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_end_padding">24.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_icon_size">32.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_icon_to_title_space">16.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_start_padding">24.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_title_line_height">32.0sp</dimen>
+    <dimen name="columbus_target_request_dialog_title_text_size">24.0sp</dimen>
+    <dimen name="columbus_target_request_dialog_title_to_content_space">16.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_top_padding">24.0dip</dimen>
+    <dimen name="columbus_target_request_dialog_width">348.0dip</dimen>
     <dimen name="dock_indication_margin">8.0dip</dimen>
     <dimen name="dock_logo_margin">32.0dip</dimen>
     <dimen name="dock_logo_min_size">48.0dip</dimen>
@@ -216,6 +246,7 @@
     <item type="dimen" name="smartspaceLetterSpacing">0.02</item>
     <item type="id" name="alarm_icon"></item>
     <item type="id" name="alarm_text"></item>
+    <item type="id" name="ambient_indication_icon"></item>
     <item type="id" name="ambient_indication_text"></item>
     <item type="id" name="assist_prompt"></item>
     <item type="id" name="base_action_icon_subtitle"></item>
@@ -287,6 +318,7 @@
     <item type="id" name="green_glow"></item>
     <item type="id" name="greeting"></item>
     <item type="id" name="halo"></item>
+    <item type="id" name="home"></item>
     <item type="id" name="home_button"></item>
     <item type="id" name="image_view"></item>
     <item type="id" name="keyboard"></item>
@@ -300,11 +332,13 @@
     <item type="id" name="loyalty_program_logo"></item>
     <item type="id" name="loyalty_program_name"></item>
     <item type="id" name="match_time_summary"></item>
+    <item type="id" name="negative_button"></item>
     <item type="id" name="performance_mode"></item>
     <item type="id" name="performance_mode_radio_button"></item>
     <item type="id" name="photo_preview"></item>
     <item type="id" name="photo_preview_text"></item>
     <item type="id" name="photo_promo_text"></item>
+    <item type="id" name="positive_button"></item>
     <item type="id" name="record"></item>
     <item type="id" name="red_glow"></item>
     <item type="id" name="reveal"></item>
@@ -399,6 +433,11 @@
     <string name="assistant_scrim_label">Listening, tap to cancel</string>
     <string name="assistant_zero_state_icon_label">Assistant Overview</string>
     <string name="charging_reverse_text">Sharing battery</string>
+    <string name="columbus_bouncer_message">Unlock to complete Quick Tap</string>
+    <string name="columbus_target_request_dialog_allow">Allow</string>
+    <string name="columbus_target_request_dialog_deny">Don’t allow</string>
+    <string name="columbus_target_request_dialog_summary">When you double-tap the back of your phone, %1$s will open. You can change this preference anytime in Settings.</string>
+    <string name="columbus_target_request_dialog_title">Allow Quick Tap to open %1$s?</string>
     <string name="config_dockComponent"></string>
     <string name="config_statusBarComponent">com.google.android.systemui.statusbar.phone.StatusBarGoogle</string>
     <string name="config_systemUIFactoryComponent">com.google.android.systemui.SystemUIGoogleFactory</string>
@@ -406,10 +445,12 @@
     <string name="copied_text_label">Copied text</string>
     <string name="copy_url_description">Text copied</string>
     <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
-    <string name="defender_notify_help_url">https://support.google.com/pixelphone?p=overheat_emergency</string>
+    <string name="defender_notify_help_url">https://support.google.com/pixelphone?p=android_batterydefender</string>
     <string name="defender_notify_learn_more">Learn more</string>
     <string name="defender_notify_resume_charge">Resume charging</string>
     <string name="defender_notify_title">Charging temporarily limited</string>
+    <string name="defender_post_notify_des">Charging was limited to %1$s from %2$s to %3$s to preserve battery health</string>
+    <string name="defender_post_notify_title">Charging normally</string>
     <string name="dock_photo_preview_text">Photo frame starting...</string>
     <string name="dock_promo_text">Swipe left for photo frame</string>
     <string name="elmyra_raw_sensor_string_type">com.google.sensor.elmyra.raw</string>
@@ -459,6 +500,7 @@ The face data used by face unlock will be permanently and securely deleted. Afte
     <string name="google_services_wallpaper_permission"> by accessing Google’s location service.</string>
     <string name="google_services_wallpaper_permission_dialog_text">You can turn access to Google’s location service for Live wallpapers on or off by going to Settings > Apps > System Apps from the overflow menu > Live data wallpapers / Live Earth Wallpapers, then tap Permissions.</string>
     <string name="handle_invocation_prompt">Swipe to talk</string>
+    <string name="home">Settings Home</string>
     <string name="image_content_description">Selectable image</string>
     <string name="low_battery_label">Low battery</string>
     <string name="no_content_in_select_mode">No text or image to be selected</string>

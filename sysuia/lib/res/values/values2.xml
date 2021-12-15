@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <attr name="content"></attr>
     <attr name="icon"></attr>
     <attr name="title"></attr>
+    <color name="edge_light_blue">#ff4185f4</color>
+    <color name="edge_light_green">#ff3aa853</color>
+    <color name="edge_light_red">#ffea4234</color>
+    <color name="edge_light_yellow">#fffbbc06</color>
     <color name="red">#ffcc0000</color>
     <dimen name="keyguard_indication_margin_bottom">32.0dip</dimen>
     <dimen name="navigation_icon_size">32.0dip</dimen>
+    <dimen name="navigation_key_padding">0.0dip</dimen>
+    <dimen name="navigation_key_width">70.0dip</dimen>
     <dimen name="status_bar_header_height_keyguard">40.0dip</dimen>
     <dimen name="top_padding">0.0dip</dimen>
     <item type="id" name="ambient_indication"></item>
     <item type="id" name="ambient_indication_container"></item>
     <item type="id" name="clock"></item>
+    <item type="id" name="content"></item>
     <item type="id" name="description"></item>
     <item type="id" name="dnd_icon"></item>
     <item type="id" name="icon"></item>
@@ -22,5 +30,6 @@
     <item type="id" name="title"></item>
     <item type="id" name="title_text"></item>
     <item type="id" name="top_padding"></item>
+    <string name="accessibility_home">Home</string>
     <string name="clock">Clock</string>
 </resources>

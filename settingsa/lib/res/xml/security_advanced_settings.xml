@@ -19,7 +19,7 @@
         <com.android.settingslib.RestrictedSwitchPreference android:title="@string/lock_settings_profile_unification_title" android:key="securityhub_unification" android:summary="@string/lock_settings_profile_unification_summary" settings:keywords="@string/keywords_unification" />
         <com.android.settingslib.RestrictedPreference android:title="@string/unlock_set_unlock_launch_picker_title_profile" android:key="securityhub_unlock_set_or_change_profile" android:summary="@string/unlock_set_unlock_mode_pattern" settings:keywords="@string/keywords_lockscreen" />
         <SwitchPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="securityhub_visiblepattern_profile" />
-        <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_fingerprint_preference_title" android:key="securityhub_fingerprint_settings_profile" android:summary="@string/summary_placeholder" />
+        <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_work_fingerprint_preference_title" android:key="securityhub_fingerprint_settings_profile" android:summary="@string/summary_placeholder" />
         <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_face_preference_title" android:key="securityhub_face_settings_profile" android:summary="@string/summary_placeholder" />
         <com.android.settingslib.RestrictedPreference android:title="@string/security_settings_biometric_preference_title" android:key="securityhub_biometric_settings_profile" android:summary="@string/summary_placeholder" />
     </PreferenceCategory>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_settings_gestures" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/columbus_gesture_training_action_title"
+<com.google.android.setupdesign.GlifLayout android:icon="@drawable/ic_quick_tap" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:sucHeaderText="@string/columbus_gesture_training_action_title"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <RadioGroup android:orientation="vertical" android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SudContentFrame">
         <com.google.android.settings.gestures.columbus.ColumbusRadioButton android:textAppearance="?android:textAppearanceListItem" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/columbus_setting_action_screenshot_title" android:paddingHorizontal="@dimen/columbus_list_item_text_spacing" android:paddingVertical="@dimen/columbus_action_list_item_spacing_vertical" app:secureValue="@string/columbus_setting_action_screenshot_value" />
