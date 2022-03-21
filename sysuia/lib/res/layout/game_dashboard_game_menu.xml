@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/game_dashboard_game_menu" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/game_menu_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/game_menu_title_bar_height" android:layout_marginHorizontal="16.0dip">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/game_menu_title_bar_height" android:layout_marginHorizontal="16.0dip">
         <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
             <ImageView android:id="@id/game_menu_back_button" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_arrow_back" android:tint="?android:textColorPrimary" android:contentDescription="@string/accessibility_game_dashboard_back_button" />
             <ImageView android:id="@id/game_menu_settings_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_gear_button" android:tint="?android:textColorPrimary" android:contentDescription="@string/accessibility_game_dashboard_settings_button" />

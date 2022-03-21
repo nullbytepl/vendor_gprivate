@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.systemui.ambientmusic.AmbientIndicationContainer android:layout_gravity="bottom" android:id="@id/ambient_indication_container" android:layout="@layout/ambient_indication_inner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:forceHasOverlappingRendering="false" systemui:layout_constraintBottom_toBottomOf="parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto" />
+<com.google.android.systemui.ambientmusic.AmbientIndicationContainer android:layout_gravity="bottom" android:id="@id/ambient_indication_container" android:layout="@layout/ambient_indication_inner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ambient_indication_margin_bottom" android:layout_marginStart="41.0dip" android:layout_marginEnd="41.0dip" android:forceHasOverlappingRendering="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
