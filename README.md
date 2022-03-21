@@ -5,7 +5,7 @@
 Clone this repo to vendor/gprivate and inherit the product makefile:
 `$(call inherit-product-if-exists, vendor/gprivate/gprivate.mk)`
 
-Important note: your SystemUI/Settings modifications CANNOT change any AOSP dagger elements. This is an inherent limitation of this approach in its current form and will not be change for the foreseeable future.
+Important note: your SystemUI/Settings modifications CANNOT change any AOSP dagger elements. This is an inherent limitation of this approach in its current form and will not change for the foreseeable future.
 
 ### Configuration
 `gprivate` supports all the same configuration overlays as real Pixels and a few custom properties:
