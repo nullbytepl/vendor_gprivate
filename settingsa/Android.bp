@@ -31,6 +31,10 @@ android_app {
     ],
     static_libs: ["settingsa-core"],
     uses_libs: ["org.apache.http.legacy"],
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
     optimize: {
         proguard_flags_files: [
             ":Settings_proguard_flags",
