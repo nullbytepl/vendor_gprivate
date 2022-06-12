@@ -9,7 +9,7 @@
             <TextView android:textAppearance="@*android:style/TextAppearance.DeviceDefault.Subhead" android:textColor="?android:textColorPrimary" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="12.0dip" />
             <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title">
                 <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/percentage_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12.0dip" />
-                <SeekBar android:layout_gravity="center_vertical" android:id="@*android:id/seekbar" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+                <SeekBar android:layout_gravity="center_vertical" android:id="@*android:id/selection_end_handle" android:layout_width="fill_parent" android:layout_height="48.0dip" />
             </LinearLayout>
         </RelativeLayout>
     </RelativeLayout>

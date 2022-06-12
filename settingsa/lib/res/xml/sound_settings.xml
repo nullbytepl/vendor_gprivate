@@ -16,11 +16,13 @@
     <com.android.settings.widget.PrimarySwitchPreference android:title="@string/gesture_prevent_ringing_sound_title" android:key="gesture_prevent_ringing_sound" android:order="-80" android:fragment="com.android.settings.gestures.PreventRingingGestureSettings" settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
     <com.android.settings.DefaultRingtonePreference android:title="@string/notification_ringtone_title" android:key="notification_ringtone" android:summary="@string/summary_placeholder" android:order="-70" android:dialogTitle="@string/notification_ringtone_title" android:ringtoneType="notification" />
     <com.android.settings.DefaultRingtonePreference android:persistent="false" android:title="@string/alarm_ringtone_title" android:key="alarm_ringtone" android:summary="@string/summary_placeholder" android:order="-60" android:dialogTitle="@string/alarm_ringtone_title" android:ringtoneType="alarm" />
+    <SwitchPreference android:title="@string/spatial_audio_title" android:key="spatial_audio" android:order="-55" settings:controller="com.android.settings.notification.SpatialAudioPreferenceController" />
     <SwitchPreference android:title="@string/dial_pad_tones_title" android:key="dial_pad_tones" android:order="-50" />
     <SwitchPreference android:title="@string/screen_locking_sounds_title" android:key="screen_locking_sounds" android:order="-45" />
     <SwitchPreference android:title="@string/charging_sounds_title" android:key="charging_sounds" android:order="-40" />
     <SwitchPreference android:title="@string/docking_sounds_title" android:key="docking_sounds" android:order="-35" />
     <SwitchPreference android:title="@string/touch_sounds_title" android:key="touch_sounds" android:order="-30" />
+    <SwitchPreference android:title="@string/vibrate_icon_title" android:key="vibrate_icon" android:order="-27" />
     <DropDownPreference android:title="@string/dock_audio_media_title" android:key="dock_audio_media" android:summary="%s" android:order="-25" />
     <SwitchPreference android:title="@string/boot_sounds_title" android:key="boot_sounds" android:order="-20" />
     <DropDownPreference android:title="@string/emergency_tone_title" android:key="emergency_tone" android:summary="%s" android:order="-15" />

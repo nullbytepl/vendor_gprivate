@@ -280,18 +280,20 @@
     <item type="id" name="home"></item>
     <item type="id" name="home_button"></item>
     <item type="id" name="image_view"></item>
+    <item type="id" name="indeterminateBar"></item>
     <item type="id" name="keyboard"></item>
     <item type="id" name="keyboard_icon_image"></item>
     <item type="id" name="list_icon"></item>
     <item type="id" name="list_item_1"></item>
     <item type="id" name="list_item_2"></item>
     <item type="id" name="list_item_3"></item>
+    <item type="id" name="loading_screen"></item>
+    <item type="id" name="loading_screen_icon"></item>
     <item type="id" name="loading_view"></item>
     <item type="id" name="lockscreen_opa"></item>
     <item type="id" name="loyalty_program_logo"></item>
     <item type="id" name="loyalty_program_name"></item>
     <item type="id" name="match_time_summary"></item>
-    <item type="id" name="nav_bar_background"></item>
     <item type="id" name="negative_button"></item>
     <item type="id" name="performance_mode"></item>
     <item type="id" name="performance_mode_radio_button"></item>
@@ -387,10 +389,15 @@
     <string name="accessibility_next_alarm">Next alarm at %s</string>
     <string name="accessibility_settings_gear">Pixel Stand settings</string>
     <string name="accessibility_smartspace_page">Page %1$d of %2$d</string>
+    <string name="adaptive_charging_notify_des">Battery full by %1$s. Charging steadily to preserve battery health.</string>
+    <string name="adaptive_charging_notify_help_url">https://support.google.com/pixelphone?p=adaptive_charging</string>
+    <string name="adaptive_charging_notify_title">Adaptive Charging is on</string>
+    <string name="adaptive_charging_notify_turn_off_once">Turn off once</string>
     <string name="adaptive_charging_time_estimate">%1$s • Adaptive charging (full by %2$s)</string>
     <string name="assistant_keyboard_icon_label">Keyboard</string>
     <string name="assistant_scrim_label">Listening, tap to cancel</string>
     <string name="assistant_zero_state_icon_label">Assistant Overview</string>
+    <string name="battery_health_notify_learn_more">Learn more</string>
     <string name="charging_reverse_text">Sharing battery</string>
     <string name="columbus_bouncer_message">Unlock to complete Quick Tap</string>
     <string name="columbus_target_request_dialog_allow">Allow</string>
@@ -404,7 +411,6 @@
     <string name="copy_url_description">Text copied</string>
     <string name="defender_notify_des">Your phone is limiting charging to help preserve battery health</string>
     <string name="defender_notify_help_url">https://support.google.com/pixelphone?p=android_batterydefender</string>
-    <string name="defender_notify_learn_more">Learn more</string>
     <string name="defender_notify_resume_charge">Resume charging</string>
     <string name="defender_notify_title">Charging temporarily limited</string>
     <string name="defender_post_notify_des">Charging was limited to %1$s from %2$s to %3$s to preserve battery health</string>

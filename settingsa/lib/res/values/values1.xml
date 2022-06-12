@@ -3,6 +3,9 @@
     <string-array name="allowlist_hide_background_in_battery_usage">
         <item>com.google.android.GoogleCamera</item>
     </string-array>
+    <string-array name="allowlist_hide_entry_in_battery_usage">
+        <item>com.google.android.gms.persistent</item>
+    </string-array>
     <string-array name="skip_direction_entries">
         <item>@string/gesture_skip_direction_rtl</item>
         <item>@string/gesture_skip_direction_ltr</item>
@@ -14,6 +17,8 @@
     <string-array name="wifitrackerlib_wsu_service_provider_packages">
         <item>com.google.android.apps.carrier.carrierwifi</item>
     </string-array>
+    <array name="allowlist_hide_summary_in_battery_usage">
+    </array>
     <array name="face_enroll_primary_buckets">
     </array>
     <array name="wlc_icon_bg_colors">
@@ -207,6 +212,7 @@
     <dimen name="hats_lib_thank_you_height">84.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_image_size">240.0dip</dimen>
     <dimen name="reverse_charging_bottom_sheet_min_height">350.0dip</dimen>
+    <dimen name="suggestion_card_corner_radius">28.0dip</dimen>
     <dimen name="suggestion_card_icon_margin_start">20.0dip</dimen>
     <dimen name="suggestion_card_margin_horizontal">16.0dip</dimen>
     <dimen name="suggestion_card_margin_top">16.0dip</dimen>
@@ -275,6 +281,7 @@
     <item type="id" name="status_image"></item>
     <item type="id" name="status_summary"></item>
     <item type="id" name="status_title"></item>
+    <item type="id" name="text_container"></item>
     <item type="id" name="toolbar_title"></item>
     <item type="id" name="toolbar_wrapper"></item>
     <item type="id" name="video_view"></item>
@@ -306,7 +313,7 @@
     <string name="accessibility_vibration_settings_screen_title">Use vibration &amp; haptics</string>
     <string name="vibration_haptics_settings_not_available_summary">Vibration &amp; haptics are unavailable because phone is set to silent</string>
     <string name="vibration_haptics_strength_category_title">Vibration &amp; haptic strength</string>
-    <string name="columbus_title">@string/columbus_name</string>
+    <string name="columbus_title">Quick Tap to start actions</string>
     <string name="vibrate_for_calls_category_title">Calls</string>
     <string name="accessibility_alarm_vibration_title">Alarm vibration</string>
     <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Active Edge set up. Go to the next screen or keep adjusting.</string>
@@ -531,8 +538,8 @@ When you turn on automatic backup, device and app data is periodically saved to 
 
 Backup data will not count towards your Drive storage quota. Large files, or files developers have chosen to exclude from the service will not be backed up."</string>
     <string name="fullbackup_erase_dialog_message">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on Google Drive?</string>
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
+    <string name="game_dashboard_always_on_summary">Show the icon in all games (without swiping up or down)</string>
+    <string name="game_dashboard_always_on_title">Game Dashboard floating icon</string>
     <string name="game_dashboard_dnd_rule_name">Gaming</string>
     <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
     <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
@@ -684,15 +691,15 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="wake_screen_suggestion_summary"></string>
     <string name="wake_screen_suggestion_title"></string>
     <string name="wallpaper_dashboard_summary">Colors, themed icons, app grid</string>
-    <string name="wifi_notify_open_networks_summary">When automatic connection isn’t available</string>
+    <string name="wifi_notify_open_networks_summary">Notify when a high‑quality public network is available</string>
     <string name="wifitrackerlib_connected_with_wsu_authenticator">Connected with %1$s</string>
     <string name="wifitrackerlib_help_url_imsi_protection">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=carrier_wifi;end</string>
     <string name="wifitrackerlib_wsu_entry_summary_not_provisioned">Tap to connect</string>
     <string name="wifitrackerlib_wsu_entry_summary_provision_error">Can’t connect. Tap to try again.</string>
     <string name="wifitrackerlib_wsu_entry_summary_provisioning">Connecting…</string>
-    <item type="string" name="APKTOOL_DUMMY_9ab"></item>
-    <item type="string" name="APKTOOL_DUMMY_9ac"></item>
-    <item type="string" name="APKTOOL_DUMMY_9ad"></item>
+    <item type="string" name="APKTOOL_DUMMY_9c3"></item>
+    <item type="string" name="APKTOOL_DUMMY_9c4"></item>
+    <item type="string" name="APKTOOL_DUMMY_9c5"></item>
     <style name="AssistGestureTrainingProgressBar">
         <item name="android:padding">8.0dip</item>
     </style>

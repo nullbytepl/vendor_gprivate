@@ -26,7 +26,6 @@
     <dimen name="accessibility_icon_foreground_size">18.0dip</dimen>
     <dimen name="accessibility_icon_size">32.0dip</dimen>
     <dimen name="contextual_card_icon_size">24.0dip</dimen>
-    <dimen name="suggestion_card_corner_radius">28.0dip</dimen>
     <item type="id" name="actions"></item>
     <item type="id" name="animation"></item>
     <item type="id" name="apps"></item>
@@ -56,7 +55,6 @@
     <item type="id" name="sud_layout_description"></item>
     <item type="id" name="suggestion_card"></item>
     <item type="id" name="summary_text"></item>
-    <item type="id" name="text_container"></item>
     <item type="id" name="texture_view"></item>
     <string name="additional_system_update"></string>
     <string name="additional_system_update_menu"></string>
@@ -102,6 +100,8 @@
     <string name="live_caption_summary">Automatically caption media</string>
     <string name="live_caption_title">Live Caption</string>
     <string name="security_settings_work_fingerprint_preference_title">Pixel Imprint for work</string>
+    <string name="spatial_audio_title">Spatial audio</string>
+    <string name="vibrate_icon_title">Always show icon when in vibrate mode</string>
     <style name="ContextualCardStyle">
         <item name="android:layout_marginBottom">@dimen/contextual_card_vertical_margin</item>
         <item name="android:layout_marginStart">@dimen/contextual_card_side_margin</item>
